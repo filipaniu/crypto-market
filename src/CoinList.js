@@ -43,5 +43,12 @@ function CoinList() {
         return "No data";
     }
 }
+// TODO
+// 1. Ikony coinów
+// 2. wykresy
+// 3. czerwone i zielone czcionki
+// 4. formatowanie liczb
+// 5. Pełne nazwy
+// 6. klikalne pierwsze ikony
 
 export default CoinList;
