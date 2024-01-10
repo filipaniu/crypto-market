@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import {useEffect, useState} from "react";
+import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 
 function loadData() {
     const request = fetch("https://api4.binance.com/api/v3/ticker/24hr");
@@ -23,31 +23,36 @@ function App() {
     let tableView = "No data";
     if (data.length > 0) {
         const rows = data.map(x => {
-            return <tr>
-                <td>{x.symbol}</td>
-                <td>{x.askPrice}</td>
-                <td>{x.bidPrice}</td>
-                <td>{x.lastPrice}</td>
-                <td>{x.volume}</td>
-            </tr>
+            return <TableRow>
+                <TableCell>{x.symbol}</TableCell>
+                <TableCell>{x.askPrice}</TableCell>
+                <TableCell>{x.bidPrice}</TableCell>
+                <TableCell>{x.lastPrice}</TableCell>
+                <TableCell>{x.volume}</TableCell>
+            </TableRow>
         })
-        tableView = <table>
-            <tr>
-                <th>Symbol</th>
-                <th>Ask price</th>
-                <th>Bid price</th>
-                <th>Last price</th>
-                <th>Volume</th>
-            </tr>
-            {rows}
-        </table>;
+        tableView = <TableContainer>
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell>Symbol</TableCell>
+                        <TableCell>Ask price</TableCell>
+                        <TableCell>Bid price</TableCell>
+                        <TableCell>Last price</TableCell>
+                        <TableCell>Volume</TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    {rows}
+                </TableBody>
+            </Table>
+        </TableContainer>;
     }
 
     return (
         <div className="App">
             <header className="App-header">
                 <h2>Crypto Market</h2>
-                <img src={logo} className="App-logo" alt="logo"/>
                 {tableView}
             </header>
         </div>
