@@ -9,29 +9,35 @@ function CoinList() {
     useEffect(() => {
         if (!dataLoaded) {
             dataLoaded = true;
-            HttpService.getCurrentPrices().then(quotations => setData(quotations));
+            HttpService.getCurrentPricesCoincap().then(quotations => {
+                console.log(quotations);
+                setData(quotations.data);
+            });
         }
     }, []);
 
     if (data.length > 0) {
         const rows = data.map((x, i) => {
+            const iconUrl = "https://cryptologos.cc/logos/thumbs/" + x.id + ".png";
             return <TableRow key={i}>
+                <TableCell><img src={iconUrl}/></TableCell>
                 <TableCell>{x.symbol}</TableCell>
-                <TableCell>{x.askPrice}</TableCell>
-                <TableCell>{x.bidPrice}</TableCell>
-                <TableCell>{x.lastPrice}</TableCell>
-                <TableCell>{x.volume}</TableCell>
+                <TableCell>{x.name}</TableCell>
+                <TableCell>{x.priceUsd}</TableCell>
+                <TableCell>{x.changePercent24Hr}</TableCell>
+                <TableCell>{x.volumeUsd24Hr}</TableCell>
             </TableRow>
         })
         return <TableContainer>
             <Table>
                 <TableHead>
                     <TableRow>
+                        <TableCell></TableCell>
                         <TableCell>Symbol</TableCell>
-                        <TableCell>Ask price</TableCell>
-                        <TableCell>Bid price</TableCell>
-                        <TableCell>Last price</TableCell>
-                        <TableCell>Volume</TableCell>
+                        <TableCell>Name</TableCell>
+                        <TableCell>Price USD</TableCell>
+                        <TableCell>Change 24h %</TableCell>
+                        <TableCell>Volume USD 24h</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -45,10 +51,10 @@ function CoinList() {
 }
 // TODO
 // 1. Ikony coinów
-// 2. wykresy
-// 3. czerwone i zielone czcionki
-// 4. formatowanie liczb
-// 5. Pełne nazwy
-// 6. klikalne pierwsze ikony
+// 2. czerwone i zielone czcionki
+// 3. formatowanie liczb
+// 4. Pełne nazwy
+// 5. klikalne pierwsze ikony
+// 6. * wykresy
 
 export default CoinList;
