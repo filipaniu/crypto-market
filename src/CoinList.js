@@ -1,6 +1,8 @@
 import {useEffect, useState} from "react";
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 import HttpService from './services/HttpService';
+import './CoinList.css';
+import MarketValue from "./MarketValue";
 
 function CoinList() {
     let dataLoaded = false;
@@ -20,11 +22,11 @@ function CoinList() {
         const rows = data.map((x, i) => {
             const iconUrl = "https://cryptologos.cc/logos/thumbs/" + x.id + ".png";
             return <TableRow key={i}>
-                <TableCell><img src={iconUrl}/></TableCell>
+                <TableCell><img className={"icon"} src={iconUrl}/></TableCell>
                 <TableCell>{x.symbol}</TableCell>
                 <TableCell>{x.name}</TableCell>
                 <TableCell>{x.priceUsd}</TableCell>
-                <TableCell>{x.changePercent24Hr}</TableCell>
+                <TableCell><MarketValue>{x.changePercent24Hr}</MarketValue></TableCell>
                 <TableCell>{x.volumeUsd24Hr}</TableCell>
             </TableRow>
         })
@@ -49,8 +51,8 @@ function CoinList() {
         return "No data";
     }
 }
+
 // TODO
-// 1. Ikony coinów
 // 2. czerwone i zielone czcionki
 // 3. formatowanie liczb
 // 4. Pełne nazwy

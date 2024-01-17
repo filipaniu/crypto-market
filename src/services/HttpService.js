@@ -15,3 +15,4 @@ class HttpService {
 }
 
 module.exports = new HttpService();
+
