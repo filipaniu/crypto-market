@@ -4,6 +4,12 @@ import HttpService from './services/HttpService';
 import './CoinList.css';
 import MarketValue from "./MarketValue";
 
+const CurrencyFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    minimumFractionDigits: 2
+});
+
 function CoinList() {
     let dataLoaded = false;
     const [data, setData] = useState([]);
@@ -25,9 +31,9 @@ function CoinList() {
                 <TableCell><img className={"icon"} src={iconUrl}/></TableCell>
                 <TableCell>{x.symbol}</TableCell>
                 <TableCell>{x.name}</TableCell>
-                <TableCell>{x.priceUsd}</TableCell>
+                <TableCell>{CurrencyFormatter.format(x.priceUsd)}</TableCell>
                 <TableCell><MarketValue>{x.changePercent24Hr}</MarketValue></TableCell>
-                <TableCell>{x.volumeUsd24Hr}</TableCell>
+                <TableCell>{CurrencyFormatter.format(x.volumeUsd24Hr)}</TableCell>
             </TableRow>
         })
         return <TableContainer>
@@ -52,10 +58,8 @@ function CoinList() {
     }
 }
 
+
 // TODO
-// 2. czerwone i zielone czcionki
-// 3. formatowanie liczb
-// 4. Pełne nazwy
 // 5. klikalne pierwsze ikony
 // 6. * wykresy
 
