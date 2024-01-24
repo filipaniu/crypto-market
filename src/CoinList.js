@@ -28,6 +28,7 @@ function CoinList() {
         const rows = data.map((x, i) => {
             const iconUrl = "https://cryptologos.cc/logos/thumbs/" + x.id + ".png";
             return <TableRow key={i}>
+                <TableCell>{i + 1}</TableCell>
                 <TableCell><img className={"icon"} src={iconUrl}/></TableCell>
                 <TableCell>{x.symbol}</TableCell>
                 <TableCell>{x.name}</TableCell>
@@ -41,6 +42,7 @@ function CoinList() {
                 <TableHead>
                     <TableRow>
                         <TableCell></TableCell>
+                        <TableCell>Icons</TableCell>
                         <TableCell>Symbol</TableCell>
                         <TableCell>Name</TableCell>
                         <TableCell>Price USD</TableCell>
@@ -60,7 +62,10 @@ function CoinList() {
 
 
 // TODO
-// 5. klikalne pierwsze ikony
-// 6. * wykresy
+//  strona danego coina
+//  ponumerowanie coinów
+//  dane w czsie rzeczywistym
+//  klikalne pierwsze ikony
+//  * wykresy
 
 export default CoinList;
