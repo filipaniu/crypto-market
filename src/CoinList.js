@@ -14,13 +14,16 @@ function CoinList() {
     let dataLoaded = false;
     const [data, setData] = useState([]);
 
+    function fetchCurrentQuotations() {
+        HttpService.getCurrentPricesCoincap().then(quotations => {
+            setData(quotations.data);
+        });
+    }
+
     useEffect(() => {
         if (!dataLoaded) {
             dataLoaded = true;
-            HttpService.getCurrentPricesCoincap().then(quotations => {
-                console.log(quotations);
-                setData(quotations.data);
-            });
+            setInterval(fetchCurrentQuotations, 1000);
         }
     }, []);
 
@@ -63,7 +66,6 @@ function CoinList() {
 
 // TODO
 //  strona danego coina
-//  ponumerowanie coinów
 //  dane w czsie rzeczywistym
 //  klikalne pierwsze ikony
 //  * wykresy
