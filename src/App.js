@@ -1,6 +1,8 @@
 import './App.css';
 import CoinList from "./CoinList";
 import {AppBar, Container, Toolbar} from "@mui/material";
+import {Routes, Route} from "react-router-dom";
+import CoinDetails from "./CoinDetails";
 
 function App() {
 
@@ -12,7 +14,10 @@ function App() {
                 </Toolbar>
             </AppBar>
             <Container>
-                <CoinList/>
+                <Routes>
+                    <Route exact path='/' element={<CoinList/>}/>
+                    <Route exact path='/coin' element={<CoinDetails/>}/>
+                </Routes>
             </Container>
         </div>
     );

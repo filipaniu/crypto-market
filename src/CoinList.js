@@ -3,6 +3,7 @@ import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "
 import HttpService from './services/HttpService';
 import './CoinList.css';
 import MarketValue from "./MarketValue";
+import {Link} from 'react-router-dom';
 
 const CurrencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -32,14 +33,20 @@ function CoinList() {
             const iconUrl = "https://cryptologos.cc/logos/thumbs/" + x.id + ".png";
             return <TableRow key={i}>
                 <TableCell>{i + 1}</TableCell>
-                <TableCell><img className={"icon"} src={iconUrl}/></TableCell>
+                <TableCell>
+                    <Link to="/coin">
+                        <img className={"icon"} src={iconUrl}/>
+                    </Link>
+                </TableCell>
                 <TableCell>{x.symbol}</TableCell>
                 <TableCell>{x.name}</TableCell>
                 <TableCell>{CurrencyFormatter.format(x.priceUsd)}</TableCell>
                 <TableCell><MarketValue>{x.changePercent24Hr}</MarketValue></TableCell>
                 <TableCell>{CurrencyFormatter.format(x.volumeUsd24Hr)}</TableCell>
             </TableRow>
+
         })
+
         return <TableContainer>
             <Table>
                 <TableHead>
@@ -66,8 +73,6 @@ function CoinList() {
 
 // TODO
 //  strona danego coina
-//  dane w czsie rzeczywistym
-//  klikalne pierwsze ikony
 //  * wykresy
 
 export default CoinList;
