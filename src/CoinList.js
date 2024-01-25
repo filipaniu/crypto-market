@@ -34,7 +34,7 @@ function CoinList() {
             return <TableRow key={i}>
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
-                    <Link to="/coin">
+                    <Link to={"/coin?symbol=" + x.symbol}>
                         <img className={"icon"} src={iconUrl}/>
                     </Link>
                 </TableCell>
