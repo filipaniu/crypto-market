@@ -1,18 +1,21 @@
 class HttpService {
 
-    binanceTicker24hUrl = "https://api4.binance.com/api/v3/ticker/24hr";
-    coincapAssetsUrl = "https://api.coincap.io/v2/assets";
+    binance = {
+        baseUrl: "https://api4.binance.com/api/v3/",
+        getCurrentPrices() {
+            return fetch(this.baseUrl + "ticker/24hr").then(x => x.json());
+        },
+        getTradingDay(symbol) {
+            return fetch(this.baseUrl + "ticker/tradingDay?symbol=" + symbol).then(x => x.json());
+        }
+    };
 
-    getCurrentPrices() {
-        const request = fetch(this.binanceTicker24hUrl);
-        return request.then(results => results.json());
-    }
-
-    getCurrentPricesCoincap() {
-        const request = fetch(this.coincapAssetsUrl);
-        return request.then(results => results.json());
-    }
+    coinCap = {
+        baseUrl: "https://api.coincap.io/v2/",
+        getCurrentPrices() {
+            return fetch(this.baseUrl + "assets").then(x => x.json());
+        }
+    };
 }
 
 module.exports = new HttpService();
-

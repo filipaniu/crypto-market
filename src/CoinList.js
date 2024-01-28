@@ -16,7 +16,7 @@ function CoinList() {
     const [data, setData] = useState([]);
 
     function fetchCurrentQuotations() {
-        HttpService.getCurrentPricesCoincap().then(quotations => {
+        HttpService.coinCap.getCurrentPrices().then(quotations => {
             setData(quotations.data);
         });
     }
