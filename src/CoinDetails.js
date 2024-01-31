@@ -11,10 +11,11 @@ function CoinDetails() {
     const symbol = searchParams.get("symbol");
 
     useEffect(() => {
-        HttpService.binance.getTradingDay(symbol).then((result) => {
-            console.log(result)
+        const currencyPair = symbol + "USDT";
+        HttpService.binance.getTradingDay(currencyPair).then((result) => {
+            console.log(result);
         });
-    }, []);
+    }, [symbol]);
 
     return <h2>{symbol}</h2>;
 }

@@ -1,7 +1,7 @@
 class HttpService {
 
     binance = {
-        baseUrl: "https://api4.binance.com/api/v3/",
+        baseUrl: "https://api.binance.com/api/v3/",
         getCurrentPrices() {
             return fetch(this.baseUrl + "ticker/24hr").then(x => x.json());
         },
