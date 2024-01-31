@@ -1,13 +1,20 @@
 import {useSearchParams} from "react-router-dom";
+import HttpService from './services/HttpService';
+import {useEffect} from "react";
 
 function CoinDetails() {
 
     // TODO
-    //  1. consume new HttpService endpoint getTradingDay
     //  2. render coin details, including lastPrice in the component
 
     let searchParams = useSearchParams()[0];
     const symbol = searchParams.get("symbol");
+
+    useEffect(() => {
+        HttpService.binance.getTradingDay(symbol).then((result) => {
+            console.log(result)
+        });
+    }, []);
 
     return <h2>{symbol}</h2>;
 }
