@@ -72,7 +72,7 @@ function CoinList() {
 
 
 // TODO
-//  strona danego coina
+//  strona danego coina(in progress)
 //  * wykresy
 
 export default CoinList;
