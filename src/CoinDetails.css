@@ -1,3 +1,38 @@
-p, h2 {
+.statistics {
     text-align: left;
+}
+
+.statistics p {
+    margin-bottom: 4px;
+}
+
+.statistics .price-change {
+    color: grey;
+    margin-left: 20px;
+}
+
+.statistics h2 {
+    font-size: 34px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.statistics h2 span {
+    margin-left: 12px;
+    vertical-align: top;
+}
+
+.statistics h3 {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.statistics ul.ohlc-stats {
+    margin: 2px;
+    padding-top: 0px;
+    padding-left: 15px;
+}
+
+.statistics ul.ohlc-stats li {
+    list-style: none;
 }

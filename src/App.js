@@ -13,7 +13,7 @@ function App() {
                     <h2>Crypto Market</h2>
                 </Toolbar>
             </AppBar>
-            <Container>
+            <Container maxWidth={false}>
                 <Routes>
                     <Route exact path='/' element={<CoinList/>}/>
                     <Route exact path='/coin' element={<CoinDetails/>}/>

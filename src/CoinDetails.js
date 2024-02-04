@@ -1,8 +1,9 @@
 import {useSearchParams} from "react-router-dom";
 import HttpService from './services/HttpService';
 import {useEffect, useState} from "react";
-import {Container, Grid} from "@mui/material";
+import {Container, Grid, Paper} from "@mui/material";
 import './CoinDetails.css';
+import CoinIcon from "./CoinIcon";
 
 function CoinDetails() {
 
@@ -26,17 +27,27 @@ function CoinDetails() {
     }, [symbol]);
 
     return <Grid container>
-        <Grid item xs={4}>
-            <h2>{currencyPair}</h2>
-            <p>Todays Statistics:</p>
-            <p>price: {CurrencyFormatter.format(data.lastPrice)}({CurrencyFormatter.format(data.priceChange)})</p>
-            <p>o: {CurrencyFormatter.format(data.openPrice)}</p>
-            <p>h: {CurrencyFormatter.format(data.highPrice)}</p>
-            <p>l: {CurrencyFormatter.format(data.lowPrice)}</p>
-            <p>c: {CurrencyFormatter.format(data.lastPrice)}</p>
-        </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={6} lg={2}>
+            <div className="statistics">
+                <Paper sx={{padding: 3}} elevation={3}>
+                    <h2>
+                        <CoinIcon symbol={symbol}/>
+                        <span>{currencyPair}</span>
+                    </h2>
+                    <h3>{CurrencyFormatter.format(data.lastPrice)} <span
+                        className="price-change">{CurrencyFormatter.format(data.priceChange)}</span></h3>
 
+                    <p>Todays statistics:</p>
+                    <ul className="ohlc-stats">
+                        <li>O: {CurrencyFormatter.format(data.openPrice)}</li>
+                        <li>H: {CurrencyFormatter.format(data.highPrice)}</li>
+                        <li>L: {CurrencyFormatter.format(data.lowPrice)}</li>
+                        <li>C: {CurrencyFormatter.format(data.lastPrice)}</li>
+                    </ul>
+                </Paper>
+            </div>
+        </Grid>
+        <Grid item xs={6} lg={10}>
         </Grid>
     </Grid>;
 }

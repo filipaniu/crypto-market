@@ -1,9 +1,11 @@
 import {useEffect, useState} from "react";
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
-import HttpService from './services/HttpService';
-import './CoinList.css';
-import MarketValue from "./MarketValue";
 import {Link} from 'react-router-dom';
+
+import HttpService from './services/HttpService';
+import MarketValue from "./MarketValue";
+import CoinIcon from './CoinIcon';
+import './CoinList.css';
 
 const CurrencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -30,12 +32,11 @@ function CoinList() {
 
     if (data.length > 0) {
         const rows = data.map((x, i) => {
-            const iconUrl = "https://cryptologos.cc/logos/thumbs/" + x.id + ".png";
             return <TableRow key={i}>
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
                     <Link to={"/coin?symbol=" + x.symbol}>
-                        <img className={"icon"} src={iconUrl}/>
+                        <CoinIcon symbol={x.symbol}/>
                     </Link>
                 </TableCell>
                 <TableCell>{x.symbol}</TableCell>
