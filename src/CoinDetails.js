@@ -49,7 +49,7 @@ function CoinDetails() {
             </div>
         </Grid>
         <Grid item xs={6} lg={10} sx={{height: '92vh'}}>
-            <TradingViewWidget/>
+            <TradingViewWidget symbol={currencyPair}/>
         </Grid>
     </Grid>;
 }
