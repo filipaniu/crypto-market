@@ -1,7 +1,8 @@
 import {useSearchParams} from "react-router-dom";
 import HttpService from './services/HttpService';
 import {useEffect, useState} from "react";
-import {Container, Grid, Paper} from "@mui/material";
+import {Grid, Paper} from "@mui/material";
+import TradingViewWidget from "./TradingViewWidget";
 import './CoinDetails.css';
 import CoinIcon from "./CoinIcon";
 
@@ -26,7 +27,7 @@ function CoinDetails() {
         });
     }, [symbol]);
 
-    return <Grid container>
+    return <Grid container spacing={3}>
         <Grid item xs={6} lg={2}>
             <div className="statistics">
                 <Paper sx={{padding: 3}} elevation={3}>
@@ -47,7 +48,8 @@ function CoinDetails() {
                 </Paper>
             </div>
         </Grid>
-        <Grid item xs={6} lg={10}>
+        <Grid item xs={6} lg={10} sx={{height: '92vh'}}>
+            <TradingViewWidget/>
         </Grid>
     </Grid>;
 }
