@@ -52,7 +52,7 @@ function CoinList() {
             <Table>
                 <TableHead>
                     <TableRow>
-                        <TableCell></TableCell>
+                        <TableCell sx={{width: "0.5vw"}}></TableCell>
                         <TableCell>Icons</TableCell>
                         <TableCell>Symbol</TableCell>
                         <TableCell>Name</TableCell>
