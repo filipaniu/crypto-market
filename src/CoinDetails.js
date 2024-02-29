@@ -36,14 +36,16 @@ function CoinDetails() {
                         <span>{currencyPair}</span>
                     </h2>
                     <h3>{CurrencyFormatter.format(data.lastPrice)} <span
-                        className="price-change">{CurrencyFormatter.format(data.priceChange)}</span></h3>
+                        className="price-change">{CurrencyFormatter.format(data.priceChange)} ({data.priceChangePercent}%)</span>
+                    </h3>
 
                     <p>Todays statistics:</p>
                     <ul className="ohlc-stats">
-                        <li>O: {CurrencyFormatter.format(data.openPrice)}</li>
-                        <li>H: {CurrencyFormatter.format(data.highPrice)}</li>
-                        <li>L: {CurrencyFormatter.format(data.lowPrice)}</li>
-                        <li>C: {CurrencyFormatter.format(data.lastPrice)}</li>
+                        <li>Open: {CurrencyFormatter.format(data.openPrice)}</li>
+                        <li>High: {CurrencyFormatter.format(data.highPrice)}</li>
+                        <li>Low: {CurrencyFormatter.format(data.lowPrice)}</li>
+                        <li>Close: {CurrencyFormatter.format(data.lastPrice)}</li>
+                        <li>Volume: {CurrencyFormatter.format(data.volume)}</li>
                     </ul>
                 </Paper>
             </div>
