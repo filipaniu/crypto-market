@@ -1,4 +1,14 @@
-a {
+a.logoIcon {
     text-decoration: none;
     color: white;
+}
+
+.logoIcon h2 {
+    display: inline-block;
+    vertical-align: super;
+}
+
+.logoIcon svg {
+    font-size: 35px;
+    margin-right: 5px;
 }

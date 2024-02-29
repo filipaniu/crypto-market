@@ -4,6 +4,7 @@ import {AppBar, Container, Toolbar} from "@mui/material";
 import {Routes, Route} from "react-router-dom";
 import CoinDetails from "./CoinDetails";
 import {Link} from 'react-router-dom';
+import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
 
 function App() {
 
@@ -11,7 +12,8 @@ function App() {
         <div className="App">
             <AppBar>
                 <Toolbar>
-                    <Link to={"/"}>
+                    <Link to={"/"} className="logoIcon">
+                        <MonetizationOnOutlinedIcon/>
                         <h2>Crypto Market</h2>
                     </Link>
                 </Toolbar>
