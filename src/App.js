@@ -3,6 +3,7 @@ import CoinList from "./CoinList";
 import {AppBar, Container, Toolbar} from "@mui/material";
 import {Routes, Route} from "react-router-dom";
 import CoinDetails from "./CoinDetails";
+import {Link} from 'react-router-dom';
 
 function App() {
 
@@ -10,7 +11,9 @@ function App() {
         <div className="App">
             <AppBar>
                 <Toolbar>
-                    <h2>Crypto Market</h2>
+                    <Link to={"/"}>
+                        <h2>Crypto Market</h2>
+                    </Link>
                 </Toolbar>
             </AppBar>
             <Container maxWidth={false}>

@@ -1,7 +1,6 @@
 import {useEffect, useState} from "react";
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
 import {Link} from 'react-router-dom';
-
 import HttpService from './services/HttpService';
 import MarketValue from "./MarketValue";
 import CoinIcon from './CoinIcon';
@@ -70,10 +69,5 @@ function CoinList() {
         return "No data";
     }
 }
-
-
-// TODO
-//  strona danego coina(in progress)
-//  * wykresy
 
 export default CoinList;
