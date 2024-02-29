@@ -23,10 +23,14 @@ function CoinList() {
     }
 
     useEffect(() => {
+        let intervalID;
         if (!dataLoaded) {
             dataLoaded = true;
-            setInterval(fetchCurrentQuotations, 1000);
+            intervalID = setInterval(fetchCurrentQuotations, 1000);
         }
+        return function cleanup() {
+            clearInterval(intervalID);
+        };
     }, []);
 
     if (data.length > 0) {
