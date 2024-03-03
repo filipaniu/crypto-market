@@ -12,3 +12,11 @@ a.logoIcon {
     font-size: 35px;
     margin-right: 5px;
 }
+
+.coinRow {
+    cursor: pointer;
+}
+
+.coinRow:hover {
+    background-color: lightgrey;
+}

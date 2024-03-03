@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
-import {Link} from 'react-router-dom';
 import HttpService from './services/HttpService';
 import MarketValue from "./MarketValue";
 import CoinIcon from './CoinIcon';
 import './CoinList.css';
+import {useNavigate} from "react-router-dom";
 
 const CurrencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -15,6 +15,8 @@ const CurrencyFormatter = new Intl.NumberFormat('en-US', {
 function CoinList() {
     let dataLoaded = false;
     const [data, setData] = useState([]);
+    const navigate = useNavigate();
+
 
     function fetchCurrentQuotations() {
         HttpService.coinCap.getCurrentPrices().then(quotations => {
@@ -35,12 +37,10 @@ function CoinList() {
 
     if (data.length > 0) {
         const rows = data.map((x, i) => {
-            return <TableRow key={i}>
+            return <TableRow key={i} onClick={() => navigate("/coin?symbol=" + x.symbol)} className="coinRow">
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
-                    <Link to={"/coin?symbol=" + x.symbol}>
-                        <CoinIcon symbol={x.symbol}/>
-                    </Link>
+                    <CoinIcon symbol={x.symbol}/>
                 </TableCell>
                 <TableCell>{x.symbol}</TableCell>
                 <TableCell>{x.name}</TableCell>
