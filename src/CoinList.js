@@ -47,6 +47,7 @@ function CoinList() {
                 <TableCell>{CurrencyFormatter.format(x.priceUsd)}</TableCell>
                 <TableCell><MarketValue>{x.changePercent24Hr}</MarketValue></TableCell>
                 <TableCell>{CurrencyFormatter.format(x.volumeUsd24Hr)}</TableCell>
+                <TableCell>{CurrencyFormatter.format(x.marketCapUsd)}</TableCell>
             </TableRow>
 
         })
@@ -62,6 +63,7 @@ function CoinList() {
                         <TableCell>Price USD</TableCell>
                         <TableCell>Change 24h %</TableCell>
                         <TableCell>Volume USD 24h</TableCell>
+                        <TableCell>Market Cap</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>

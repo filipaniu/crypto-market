@@ -2,8 +2,7 @@
 
 ## TODO
 
-- dodac do list 
-- a)market cap
+- dodac do list
 - b)7days%
 - c)1h%
 - d)sortowanie danych w tabeli
