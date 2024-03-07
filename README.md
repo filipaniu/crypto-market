@@ -5,5 +5,6 @@
 - dodac do list
 - b)7days%
 - c)1h%
-- d)sortowanie danych w tabeli
+- sortowanie danych w tabeli
 - *wykresy na stronie listy*
+- https://api4.binance.com/api/v3/ticker?symbol=%5B%22BTCUSDT%22,%22BNBUSDT%22%5D&windowSize=7d

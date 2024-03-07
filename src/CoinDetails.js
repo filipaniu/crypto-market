@@ -15,6 +15,7 @@ function CoinDetails() {
     });
 
     const [data, setData] = useState([]);
+    const [data7d, setData7d] = useState([]);
 
     let searchParams = useSearchParams()[0];
     const symbol = searchParams.get("symbol");
@@ -24,6 +25,9 @@ function CoinDetails() {
     useEffect(() => {
         HttpService.binance.getTradingDay(currencyPair).then((result) => {
             setData(result);
+        });
+        HttpService.binance.getRollingWindow(currencyPair, "7d").then((result) => {
+            setData7d(result);
         });
     }, [symbol]);
 
@@ -47,13 +51,26 @@ function CoinDetails() {
                         <li>Close: {CurrencyFormatter.format(data.lastPrice)}</li>
                         <li>Volume: {CurrencyFormatter.format(data.volume)}</li>
                     </ul>
+
+                    <p>7 days statistics:</p>
+                    <ul className="ohlc-stats">
+                        <li>Open: {CurrencyFormatter.format(data7d.openPrice)}</li>
+                        <li>High: {CurrencyFormatter.format(data7d.highPrice)}</li>
+                        <li>Low: {CurrencyFormatter.format(data7d.lowPrice)}</li>
+                        <li>Close: {CurrencyFormatter.format(data7d.lastPrice)}</li>
+                        <li>Volume: {CurrencyFormatter.format(data7d.volume)}</li>
+                        <li> Price
+                            Change: <span>{CurrencyFormatter.format(data7d.priceChange)} ({data7d.priceChangePercent}%)</span>
+                        </li>
+                    </ul>
                 </Paper>
             </div>
         </Grid>
         <Grid item xs={6} lg={10} sx={{height: '92vh'}}>
             <TradingViewWidget symbol={currencyPair}/>
         </Grid>
-    </Grid>;
+    </Grid>
+        ;
 }
 
 export default CoinDetails;
