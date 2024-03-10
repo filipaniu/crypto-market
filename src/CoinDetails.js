@@ -14,13 +14,22 @@ function CoinDetails() {
         minimumFractionDigits: 2
     });
 
-    const [data, setData] = useState([]);
-    const [data7d, setData7d] = useState([]);
+    const [data, setData] = useState({});
+    const [data7d, setData7d] = useState({});
+    const [wsData, setWsData] = useState({});
 
     let searchParams = useSearchParams()[0];
     const symbol = searchParams.get("symbol");
 
     const currencyPair = symbol + "USDT";
+
+    function setupWebSockets(){
+        const WS = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@ticker");
+        WS.onopen = (msg) => console.log("WebSocket has been opened", msg);
+        WS.onerror = (error) => console.log("WebSocket error", error);
+        WS.onclose = (msg) => console.log("WebSocket has been closed", msg);
+        WS.onmessage = (msg) => setWsData(JSON.parse(msg.data));
+    }
 
     useEffect(() => {
         HttpService.binance.getTradingDay(currencyPair).then((result) => {
@@ -29,6 +38,7 @@ function CoinDetails() {
         HttpService.binance.getRollingWindow(currencyPair, "7d").then((result) => {
             setData7d(result);
         });
+        setupWebSockets();
     }, [symbol]);
 
     return <Grid container spacing={3}>
@@ -39,8 +49,9 @@ function CoinDetails() {
                         <CoinIcon symbol={symbol}/>
                         <span>{currencyPair}</span>
                     </h2>
-                    <h3>{CurrencyFormatter.format(data.lastPrice)} <span
-                        className="price-change">{CurrencyFormatter.format(data.priceChange)} ({data.priceChangePercent}%)</span>
+                    <h3>
+                        {CurrencyFormatter.format(wsData.c)} 
+                        <span className="price-change">{CurrencyFormatter.format(wsData.p)} ({wsData.P}%)</span>
                     </h3>
 
                     <p>Todays statistics:</p>
