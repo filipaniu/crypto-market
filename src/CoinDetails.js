@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {Grid, Paper} from "@mui/material";
 import TradingViewWidget from "./TradingViewWidget";
 import './CoinDetails.css';
-import CoinIcon from "./CoinIcon";
+
 
 function CoinDetails() {
 
@@ -19,9 +19,7 @@ function CoinDetails() {
     const [wsData, setWsData] = useState({});
 
     let searchParams = useSearchParams()[0];
-    const symbol = searchParams.get("symbol");
-
-    const currencyPair = symbol + "USDT";
+    const  currencyPair = searchParams.get("symbol");
 
     function setupWebSockets(){
         const WS = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@ticker");
@@ -39,14 +37,14 @@ function CoinDetails() {
             setData7d(result);
         });
         setupWebSockets();
-    }, [symbol]);
+    }, [currencyPair]);
 
     return <Grid container spacing={3}>
         <Grid item xs={6} lg={2}>
             <div className="statistics">
                 <Paper sx={{padding: 3}} elevation={3}>
                     <h2>
-                        <CoinIcon symbol={symbol}/>
+                        {/*<CoinIcon symbol={currencyPair}/>*/}
                         <span>{currencyPair}</span>
                     </h2>
                     <h3>

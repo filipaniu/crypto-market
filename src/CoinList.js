@@ -1,8 +1,6 @@
 import {useEffect, useState} from "react";
 import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow} from "@mui/material";
-import HttpService from './services/HttpService';
 import MarketValue from "./MarketValue";
-import CoinIcon from './CoinIcon';
 import './CoinList.css';
 import {useNavigate} from "react-router-dom";
 import * as _ from "lodash";
