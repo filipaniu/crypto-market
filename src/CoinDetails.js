@@ -4,7 +4,7 @@ import {useEffect, useState} from "react";
 import {Grid, Paper} from "@mui/material";
 import TradingViewWidget from "./TradingViewWidget";
 import './CoinDetails.css';
-
+import CandlestickChart from "./CandlestickChart";
 
 function CoinDetails() {
 
@@ -22,8 +22,9 @@ function CoinDetails() {
     const  currencyPair = searchParams.get("symbol");
 
     function setupWebSockets(){
-        const WS = new WebSocket("wss://stream.binance.com:9443/ws/btcusdt@ticker");
-        WS.onopen = (msg) => console.log("WebSocket has been opened", msg);
+        const address = `wss://stream.binance.com:9443/ws/${currencyPair.toLowerCase()}@ticker`;
+        const WS = new WebSocket(address);
+        WS.onopen = () => console.log(`WebSocket ${address} has been opened`)
         WS.onerror = (error) => console.log("WebSocket error", error);
         WS.onclose = (msg) => console.log("WebSocket has been closed", msg);
         WS.onmessage = (msg) => setWsData(JSON.parse(msg.data));
@@ -76,10 +77,10 @@ function CoinDetails() {
             </div>
         </Grid>
         <Grid item xs={6} lg={10} sx={{height: '92vh'}}>
-            <TradingViewWidget symbol={currencyPair}/>
+            {/*<TradingViewWidget symbol={currencyPair}/>*/}
+            <CandlestickChart symbol={currencyPair}/>
         </Grid>
-    </Grid>
-        ;
+    </Grid>;
 }
 
 export default CoinDetails;
