@@ -19,9 +19,9 @@ function CoinDetails() {
     const [wsData, setWsData] = useState({});
 
     let searchParams = useSearchParams()[0];
-    const  currencyPair = searchParams.get("symbol");
+    const currencyPair = searchParams.get("symbol");
 
-    function setupWebSockets(){
+    function setupWebSockets() {
         const address = `wss://stream.binance.com:9443/ws/${currencyPair.toLowerCase()}@ticker`;
         const WS = new WebSocket(address);
         WS.onopen = () => console.log(`WebSocket ${address} has been opened`)
@@ -49,7 +49,7 @@ function CoinDetails() {
                         <span>{currencyPair}</span>
                     </h2>
                     <h3>
-                        {CurrencyFormatter.format(wsData.c)} 
+                        {CurrencyFormatter.format(wsData.c)}
                         <span className="price-change">{CurrencyFormatter.format(wsData.p)} ({wsData.P}%)</span>
                     </h3>
 
@@ -77,8 +77,8 @@ function CoinDetails() {
             </div>
         </Grid>
         <Grid item xs={6} lg={10} sx={{height: '92vh'}}>
-            {/*<TradingViewWidget symbol={currencyPair}/>*/}
             <CandlestickChart symbol={currencyPair}/>
+            <TradingViewWidget symbol={currencyPair}/>
         </Grid>
     </Grid>;
 }
