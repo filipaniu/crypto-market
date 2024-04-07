@@ -1,10 +1,10 @@
-import {useEffect, useState} from "react";
-import {Chart} from "react-google-charts";
+import { useEffect, useState } from "react";
+import { Chart } from "react-google-charts";
 import * as _ from "lodash";
 
 export default function CandlestickChart(props) {
 
-    const formatter = new Intl.DateTimeFormat('pl-PL', {timeStyle: 'medium'});
+    const formatter = new Intl.DateTimeFormat('pl-PL', { timeStyle: 'medium' });
     const [chartData, setChartData] = useState([["Time", "Low", "Open", "Close", "High"]]);
 
     function setupWebSockets(symbol) {
@@ -15,7 +15,6 @@ export default function CandlestickChart(props) {
         WS.onclose = (msg) => console.log("WebSocket has been closed", msg);
         WS.onmessage = (msg) => {
             const data = JSON.parse(msg.data);
-            console.log(data.E);
             const candle = [
                 formatter.format(data.E),
                 parseFloat(data.k.l),
@@ -32,7 +31,9 @@ export default function CandlestickChart(props) {
         if (_.isEmpty(props.symbol)) {
             return;
         }
-        setupWebSockets(props.symbol);
+        if (chartData.length <= 1) {
+            setupWebSockets(props.symbol);
+        }
     }, [props.symbol]);
 
     if (chartData.length > 5) {
@@ -42,8 +43,8 @@ export default function CandlestickChart(props) {
             data={chartData}
             width="100%"
             height="750px"
-            options={{chartArea: {width: "90%"},legend:{position:"top"}, title: "1s " + props.symbol}}
-            legendToggle/>
+            options={{ chartArea: { width: "90%" }, legend: { position: "top" }, title: "1s " + props.symbol }}
+            legendToggle />
     } else {
         return <p>Please wait...</p>
     }
