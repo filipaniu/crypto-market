@@ -31,10 +31,11 @@ function CoinList() {
             setWsData(sortedData);
             previousWsData = sortedData;
 
-            // TODO get all symbols from sortedData
-            // 1. map each object to get only 's' and write to console
-            // 2. Serialize data for Copy&Paste to symbols.json
-            console.log(sortedData);
+            const s = sortedData.map(x => ({s: x.s}));
+            console.log(s);
+            JSON.stringify(s)
+            console.log(JSON.stringify(s));
+
         };
     }, []);
 

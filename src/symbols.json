@@ -1,3 +1,3703 @@
 {
-    "data":[{"s":"1000SATSFDUSD"}, {"s":"1000SATSTRY"}, {"s":"AAA"}]
+  "data": [
+    {
+      "s": "1000SATSFDUSD"
+    },
+    {
+      "s": "1000SATSTRY"
+    },
+    {
+      "s": "1000SATSUSDT"
+    },
+    {
+      "s": "1INCHBTC"
+    },
+    {
+      "s": "1INCHUSDT"
+    },
+    {
+      "s": "AAVEBNB"
+    },
+    {
+      "s": "AAVEBTC"
+    },
+    {
+      "s": "AAVEETH"
+    },
+    {
+      "s": "AAVETRY"
+    },
+    {
+      "s": "AAVEUSDT"
+    },
+    {
+      "s": "ACABTC"
+    },
+    {
+      "s": "ACATRY"
+    },
+    {
+      "s": "ACAUSDT"
+    },
+    {
+      "s": "ACEBNB"
+    },
+    {
+      "s": "ACEBTC"
+    },
+    {
+      "s": "ACEFDUSD"
+    },
+    {
+      "s": "ACETRY"
+    },
+    {
+      "s": "ACEUSDT"
+    },
+    {
+      "s": "ACHBTC"
+    },
+    {
+      "s": "ACHTRY"
+    },
+    {
+      "s": "ACHUSDT"
+    },
+    {
+      "s": "ACMTRY"
+    },
+    {
+      "s": "ACMUSDT"
+    },
+    {
+      "s": "ADABNB"
+    },
+    {
+      "s": "ADABRL"
+    },
+    {
+      "s": "ADABTC"
+    },
+    {
+      "s": "ADAETH"
+    },
+    {
+      "s": "ADAEUR"
+    },
+    {
+      "s": "ADAFDUSD"
+    },
+    {
+      "s": "ADATRY"
+    },
+    {
+      "s": "ADATUSD"
+    },
+    {
+      "s": "ADAUSDC"
+    },
+    {
+      "s": "ADAUSDT"
+    },
+    {
+      "s": "ADXBTC"
+    },
+    {
+      "s": "ADXETH"
+    },
+    {
+      "s": "ADXUSDT"
+    },
+    {
+      "s": "AERGOUSDT"
+    },
+    {
+      "s": "AEURUSDT"
+    },
+    {
+      "s": "AEVOBNB"
+    },
+    {
+      "s": "AEVOBTC"
+    },
+    {
+      "s": "AEVOFDUSD"
+    },
+    {
+      "s": "AEVOTRY"
+    },
+    {
+      "s": "AEVOUSDT"
+    },
+    {
+      "s": "AGIXBTC"
+    },
+    {
+      "s": "AGIXFDUSD"
+    },
+    {
+      "s": "AGIXTRY"
+    },
+    {
+      "s": "AGIXUSDT"
+    },
+    {
+      "s": "AGLDBTC"
+    },
+    {
+      "s": "AGLDUSDT"
+    },
+    {
+      "s": "AIBNB"
+    },
+    {
+      "s": "AIBTC"
+    },
+    {
+      "s": "AIFDUSD"
+    },
+    {
+      "s": "AITRY"
+    },
+    {
+      "s": "AITUSD"
+    },
+    {
+      "s": "AIUSDT"
+    },
+    {
+      "s": "AKROUSDT"
+    },
+    {
+      "s": "ALCXBTC"
+    },
+    {
+      "s": "ALCXUSDT"
+    },
+    {
+      "s": "ALGOBTC"
+    },
+    {
+      "s": "ALGOETH"
+    },
+    {
+      "s": "ALGOFDUSD"
+    },
+    {
+      "s": "ALGOTRY"
+    },
+    {
+      "s": "ALGOUSDT"
+    },
+    {
+      "s": "ALICEBTC"
+    },
+    {
+      "s": "ALICETRY"
+    },
+    {
+      "s": "ALICEUSDT"
+    },
+    {
+      "s": "ALPACABTC"
+    },
+    {
+      "s": "ALPACAUSDT"
+    },
+    {
+      "s": "ALPHABTC"
+    },
+    {
+      "s": "ALPHAUSDT"
+    },
+    {
+      "s": "ALPINEBTC"
+    },
+    {
+      "s": "ALPINETRY"
+    },
+    {
+      "s": "ALPINEUSDT"
+    },
+    {
+      "s": "ALTBNB"
+    },
+    {
+      "s": "ALTBTC"
+    },
+    {
+      "s": "ALTFDUSD"
+    },
+    {
+      "s": "ALTTRY"
+    },
+    {
+      "s": "ALTUSDC"
+    },
+    {
+      "s": "ALTUSDT"
+    },
+    {
+      "s": "AMBBTC"
+    },
+    {
+      "s": "AMBUSDT"
+    },
+    {
+      "s": "AMPTRY"
+    },
+    {
+      "s": "AMPUSDT"
+    },
+    {
+      "s": "ANKRBTC"
+    },
+    {
+      "s": "ANKRTRY"
+    },
+    {
+      "s": "ANKRUSDT"
+    },
+    {
+      "s": "APEBTC"
+    },
+    {
+      "s": "APEETH"
+    },
+    {
+      "s": "APETRY"
+    },
+    {
+      "s": "APEUSDT"
+    },
+    {
+      "s": "API3BTC"
+    },
+    {
+      "s": "API3TRY"
+    },
+    {
+      "s": "API3USDT"
+    },
+    {
+      "s": "APTBTC"
+    },
+    {
+      "s": "APTETH"
+    },
+    {
+      "s": "APTEUR"
+    },
+    {
+      "s": "APTFDUSD"
+    },
+    {
+      "s": "APTTRY"
+    },
+    {
+      "s": "APTUSDT"
+    },
+    {
+      "s": "ARBBTC"
+    },
+    {
+      "s": "ARBETH"
+    },
+    {
+      "s": "ARBEUR"
+    },
+    {
+      "s": "ARBFDUSD"
+    },
+    {
+      "s": "ARBTC"
+    },
+    {
+      "s": "ARBTRY"
+    },
+    {
+      "s": "ARBTUSD"
+    },
+    {
+      "s": "ARBUSDC"
+    },
+    {
+      "s": "ARBUSDT"
+    },
+    {
+      "s": "ARDRBTC"
+    },
+    {
+      "s": "ARDRUSDT"
+    },
+    {
+      "s": "ARKMBNB"
+    },
+    {
+      "s": "ARKMBTC"
+    },
+    {
+      "s": "ARKMFDUSD"
+    },
+    {
+      "s": "ARKMTRY"
+    },
+    {
+      "s": "ARKMTUSD"
+    },
+    {
+      "s": "ARKMUSDT"
+    },
+    {
+      "s": "ARKTRY"
+    },
+    {
+      "s": "ARKUSDT"
+    },
+    {
+      "s": "ARPABTC"
+    },
+    {
+      "s": "ARPATRY"
+    },
+    {
+      "s": "ARPAUSDT"
+    },
+    {
+      "s": "ARTRY"
+    },
+    {
+      "s": "ARUSDT"
+    },
+    {
+      "s": "ASRTRY"
+    },
+    {
+      "s": "ASRUSDT"
+    },
+    {
+      "s": "ASTBTC"
+    },
+    {
+      "s": "ASTRBTC"
+    },
+    {
+      "s": "ASTRUSDT"
+    },
+    {
+      "s": "ASTUSDT"
+    },
+    {
+      "s": "ATABTC"
+    },
+    {
+      "s": "ATAUSDT"
+    },
+    {
+      "s": "ATMTRY"
+    },
+    {
+      "s": "ATMUSDT"
+    },
+    {
+      "s": "ATOMBNB"
+    },
+    {
+      "s": "ATOMBTC"
+    },
+    {
+      "s": "ATOMETH"
+    },
+    {
+      "s": "ATOMEUR"
+    },
+    {
+      "s": "ATOMFDUSD"
+    },
+    {
+      "s": "ATOMTRY"
+    },
+    {
+      "s": "ATOMUSDT"
+    },
+    {
+      "s": "AUCTIONBTC"
+    },
+    {
+      "s": "AUCTIONFDUSD"
+    },
+    {
+      "s": "AUCTIONUSDT"
+    },
+    {
+      "s": "AUDIOBTC"
+    },
+    {
+      "s": "AUDIOTRY"
+    },
+    {
+      "s": "AUDIOUSDT"
+    },
+    {
+      "s": "AVABTC"
+    },
+    {
+      "s": "AVAUSDT"
+    },
+    {
+      "s": "AVAXBNB"
+    },
+    {
+      "s": "AVAXBRL"
+    },
+    {
+      "s": "AVAXBTC"
+    },
+    {
+      "s": "AVAXETH"
+    },
+    {
+      "s": "AVAXEUR"
+    },
+    {
+      "s": "AVAXFDUSD"
+    },
+    {
+      "s": "AVAXTRY"
+    },
+    {
+      "s": "AVAXTUSD"
+    },
+    {
+      "s": "AVAXUSDC"
+    },
+    {
+      "s": "AVAXUSDT"
+    },
+    {
+      "s": "AXLBTC"
+    },
+    {
+      "s": "AXLFDUSD"
+    },
+    {
+      "s": "AXLTRY"
+    },
+    {
+      "s": "AXLUSDT"
+    },
+    {
+      "s": "AXSBNB"
+    },
+    {
+      "s": "AXSBTC"
+    },
+    {
+      "s": "AXSETH"
+    },
+    {
+      "s": "AXSTRY"
+    },
+    {
+      "s": "AXSUSDT"
+    },
+    {
+      "s": "BADGERBTC"
+    },
+    {
+      "s": "BADGERUSDT"
+    },
+    {
+      "s": "BAKEBTC"
+    },
+    {
+      "s": "BAKEUSDT"
+    },
+    {
+      "s": "BALBTC"
+    },
+    {
+      "s": "BALUSDT"
+    },
+    {
+      "s": "BANDBTC"
+    },
+    {
+      "s": "BANDTRY"
+    },
+    {
+      "s": "BANDUSDT"
+    },
+    {
+      "s": "BARTRY"
+    },
+    {
+      "s": "BARUSDT"
+    },
+    {
+      "s": "BATBTC"
+    },
+    {
+      "s": "BATUSDT"
+    },
+    {
+      "s": "BCHBNB"
+    },
+    {
+      "s": "BCHBTC"
+    },
+    {
+      "s": "BCHEUR"
+    },
+    {
+      "s": "BCHFDUSD"
+    },
+    {
+      "s": "BCHTRY"
+    },
+    {
+      "s": "BCHTUSD"
+    },
+    {
+      "s": "BCHUSDC"
+    },
+    {
+      "s": "BCHUSDT"
+    },
+    {
+      "s": "BEAMXTRY"
+    },
+    {
+      "s": "BEAMXUSDT"
+    },
+    {
+      "s": "BELBTC"
+    },
+    {
+      "s": "BELTRY"
+    },
+    {
+      "s": "BELUSDT"
+    },
+    {
+      "s": "BETABTC"
+    },
+    {
+      "s": "BETAUSDT"
+    },
+    {
+      "s": "BICOBTC"
+    },
+    {
+      "s": "BICOUSDT"
+    },
+    {
+      "s": "BIFIUSDT"
+    },
+    {
+      "s": "BLURBTC"
+    },
+    {
+      "s": "BLURFDUSD"
+    },
+    {
+      "s": "BLURTRY"
+    },
+    {
+      "s": "BLURUSDC"
+    },
+    {
+      "s": "BLURUSDT"
+    },
+    {
+      "s": "BLZBTC"
+    },
+    {
+      "s": "BLZFDUSD"
+    },
+    {
+      "s": "BLZUSDT"
+    },
+    {
+      "s": "BNBBRL"
+    },
+    {
+      "s": "BNBBTC"
+    },
+    {
+      "s": "BNBDAI"
+    },
+    {
+      "s": "BNBETH"
+    },
+    {
+      "s": "BNBEUR"
+    },
+    {
+      "s": "BNBFDUSD"
+    },
+    {
+      "s": "BNBJPY"
+    },
+    {
+      "s": "BNBTRY"
+    },
+    {
+      "s": "BNBTUSD"
+    },
+    {
+      "s": "BNBUAH"
+    },
+    {
+      "s": "BNBUSDC"
+    },
+    {
+      "s": "BNBUSDT"
+    },
+    {
+      "s": "BNTBTC"
+    },
+    {
+      "s": "BNTETH"
+    },
+    {
+      "s": "BNTUSDT"
+    },
+    {
+      "s": "BNXBTC"
+    },
+    {
+      "s": "BNXUSDT"
+    },
+    {
+      "s": "BOMEBTC"
+    },
+    {
+      "s": "BOMEFDUSD"
+    },
+    {
+      "s": "BOMETRY"
+    },
+    {
+      "s": "BOMEUSDC"
+    },
+    {
+      "s": "BOMEUSDT"
+    },
+    {
+      "s": "BONDBTC"
+    },
+    {
+      "s": "BONDUSDT"
+    },
+    {
+      "s": "BONKFDUSD"
+    },
+    {
+      "s": "BONKTRY"
+    },
+    {
+      "s": "BONKUSDC"
+    },
+    {
+      "s": "BONKUSDT"
+    },
+    {
+      "s": "BSWTRY"
+    },
+    {
+      "s": "BSWUSDT"
+    },
+    {
+      "s": "BTCAEUR"
+    },
+    {
+      "s": "BTCARS"
+    },
+    {
+      "s": "BTCBIDR"
+    },
+    {
+      "s": "BTCBRL"
+    },
+    {
+      "s": "BTCDAI"
+    },
+    {
+      "s": "BTCEUR"
+    },
+    {
+      "s": "BTCFDUSD"
+    },
+    {
+      "s": "BTCJPY"
+    },
+    {
+      "s": "BTCPLN"
+    },
+    {
+      "s": "BTCRON"
+    },
+    {
+      "s": "BTCTRY"
+    },
+    {
+      "s": "BTCTUSD"
+    },
+    {
+      "s": "BTCUAH"
+    },
+    {
+      "s": "BTCUSDC"
+    },
+    {
+      "s": "BTCUSDT"
+    },
+    {
+      "s": "BTCZAR"
+    },
+    {
+      "s": "BTTCTRY"
+    },
+    {
+      "s": "BTTCUSDT"
+    },
+    {
+      "s": "BURGERUSDT"
+    },
+    {
+      "s": "C98BTC"
+    },
+    {
+      "s": "C98USDT"
+    },
+    {
+      "s": "CAKEBNB"
+    },
+    {
+      "s": "CAKEBTC"
+    },
+    {
+      "s": "CAKETRY"
+    },
+    {
+      "s": "CAKETUSD"
+    },
+    {
+      "s": "CAKEUSDT"
+    },
+    {
+      "s": "CELOBTC"
+    },
+    {
+      "s": "CELOUSDT"
+    },
+    {
+      "s": "CELRBTC"
+    },
+    {
+      "s": "CELRUSDT"
+    },
+    {
+      "s": "CFXBTC"
+    },
+    {
+      "s": "CFXTRY"
+    },
+    {
+      "s": "CFXTUSD"
+    },
+    {
+      "s": "CFXUSDT"
+    },
+    {
+      "s": "CHESSBTC"
+    },
+    {
+      "s": "CHESSUSDT"
+    },
+    {
+      "s": "CHRBNB"
+    },
+    {
+      "s": "CHRBTC"
+    },
+    {
+      "s": "CHRETH"
+    },
+    {
+      "s": "CHRUSDT"
+    },
+    {
+      "s": "CHZBNB"
+    },
+    {
+      "s": "CHZBRL"
+    },
+    {
+      "s": "CHZBTC"
+    },
+    {
+      "s": "CHZEUR"
+    },
+    {
+      "s": "CHZFDUSD"
+    },
+    {
+      "s": "CHZTRY"
+    },
+    {
+      "s": "CHZUSDT"
+    },
+    {
+      "s": "CITYTRY"
+    },
+    {
+      "s": "CITYUSDT"
+    },
+    {
+      "s": "CKBTRY"
+    },
+    {
+      "s": "CKBUSDC"
+    },
+    {
+      "s": "CKBUSDT"
+    },
+    {
+      "s": "CLVBTC"
+    },
+    {
+      "s": "CLVUSDT"
+    },
+    {
+      "s": "COMBOTRY"
+    },
+    {
+      "s": "COMBOUSDT"
+    },
+    {
+      "s": "COMPBTC"
+    },
+    {
+      "s": "COMPTRY"
+    },
+    {
+      "s": "COMPUSDT"
+    },
+    {
+      "s": "COSBTC"
+    },
+    {
+      "s": "COSTRY"
+    },
+    {
+      "s": "COSUSDT"
+    },
+    {
+      "s": "COTIBTC"
+    },
+    {
+      "s": "COTITRY"
+    },
+    {
+      "s": "COTIUSDT"
+    },
+    {
+      "s": "CREAMUSDT"
+    },
+    {
+      "s": "CRVBTC"
+    },
+    {
+      "s": "CRVTRY"
+    },
+    {
+      "s": "CRVUSDT"
+    },
+    {
+      "s": "CTKBNB"
+    },
+    {
+      "s": "CTKBTC"
+    },
+    {
+      "s": "CTKUSDT"
+    },
+    {
+      "s": "CTSIBTC"
+    },
+    {
+      "s": "CTSIUSDT"
+    },
+    {
+      "s": "CTXCBTC"
+    },
+    {
+      "s": "CTXCUSDT"
+    },
+    {
+      "s": "CVCUSDT"
+    },
+    {
+      "s": "CVPUSDT"
+    },
+    {
+      "s": "CVXUSDT"
+    },
+    {
+      "s": "CYBERBNB"
+    },
+    {
+      "s": "CYBERBTC"
+    },
+    {
+      "s": "CYBERETH"
+    },
+    {
+      "s": "CYBERFDUSD"
+    },
+    {
+      "s": "CYBERTRY"
+    },
+    {
+      "s": "CYBERTUSD"
+    },
+    {
+      "s": "CYBERUSDT"
+    },
+    {
+      "s": "DARBTC"
+    },
+    {
+      "s": "DARTRY"
+    },
+    {
+      "s": "DARUSDT"
+    },
+    {
+      "s": "DASHBTC"
+    },
+    {
+      "s": "DASHETH"
+    },
+    {
+      "s": "DASHUSDT"
+    },
+    {
+      "s": "DATABTC"
+    },
+    {
+      "s": "DATAUSDT"
+    },
+    {
+      "s": "DCRBTC"
+    },
+    {
+      "s": "DCRUSDT"
+    },
+    {
+      "s": "DEGOBTC"
+    },
+    {
+      "s": "DEGOUSDT"
+    },
+    {
+      "s": "DENTETH"
+    },
+    {
+      "s": "DENTTRY"
+    },
+    {
+      "s": "DENTUSDT"
+    },
+    {
+      "s": "DEXEUSDT"
+    },
+    {
+      "s": "DFUSDT"
+    },
+    {
+      "s": "DGBBTC"
+    },
+    {
+      "s": "DGBUSDT"
+    },
+    {
+      "s": "DIABTC"
+    },
+    {
+      "s": "DIAUSDT"
+    },
+    {
+      "s": "DOCKBTC"
+    },
+    {
+      "s": "DOCKUSDT"
+    },
+    {
+      "s": "DODOBTC"
+    },
+    {
+      "s": "DODOUSDT"
+    },
+    {
+      "s": "DOGEBRL"
+    },
+    {
+      "s": "DOGEBTC"
+    },
+    {
+      "s": "DOGEEUR"
+    },
+    {
+      "s": "DOGEFDUSD"
+    },
+    {
+      "s": "DOGETRY"
+    },
+    {
+      "s": "DOGETUSD"
+    },
+    {
+      "s": "DOGEUSDC"
+    },
+    {
+      "s": "DOGEUSDT"
+    },
+    {
+      "s": "DOTBNB"
+    },
+    {
+      "s": "DOTBRL"
+    },
+    {
+      "s": "DOTBTC"
+    },
+    {
+      "s": "DOTETH"
+    },
+    {
+      "s": "DOTEUR"
+    },
+    {
+      "s": "DOTFDUSD"
+    },
+    {
+      "s": "DOTTRY"
+    },
+    {
+      "s": "DOTTUSD"
+    },
+    {
+      "s": "DOTUSDC"
+    },
+    {
+      "s": "DOTUSDT"
+    },
+    {
+      "s": "DUSKBTC"
+    },
+    {
+      "s": "DUSKUSDT"
+    },
+    {
+      "s": "DYDXBNB"
+    },
+    {
+      "s": "DYDXBTC"
+    },
+    {
+      "s": "DYDXFDUSD"
+    },
+    {
+      "s": "DYDXTRY"
+    },
+    {
+      "s": "DYDXUSDT"
+    },
+    {
+      "s": "DYMBTC"
+    },
+    {
+      "s": "DYMFDUSD"
+    },
+    {
+      "s": "DYMTRY"
+    },
+    {
+      "s": "DYMUSDT"
+    },
+    {
+      "s": "EDUBTC"
+    },
+    {
+      "s": "EDUTRY"
+    },
+    {
+      "s": "EDUUSDT"
+    },
+    {
+      "s": "EGLDBNB"
+    },
+    {
+      "s": "EGLDBTC"
+    },
+    {
+      "s": "EGLDETH"
+    },
+    {
+      "s": "EGLDEUR"
+    },
+    {
+      "s": "EGLDFDUSD"
+    },
+    {
+      "s": "EGLDRON"
+    },
+    {
+      "s": "EGLDUSDT"
+    },
+    {
+      "s": "ELFBTC"
+    },
+    {
+      "s": "ELFETH"
+    },
+    {
+      "s": "ELFUSDT"
+    },
+    {
+      "s": "ENABNB"
+    },
+    {
+      "s": "ENABTC"
+    },
+    {
+      "s": "ENAFDUSD"
+    },
+    {
+      "s": "ENATRY"
+    },
+    {
+      "s": "ENAUSDC"
+    },
+    {
+      "s": "ENAUSDT"
+    },
+    {
+      "s": "ENJBTC"
+    },
+    {
+      "s": "ENJETH"
+    },
+    {
+      "s": "ENJTRY"
+    },
+    {
+      "s": "ENJUSDT"
+    },
+    {
+      "s": "ENSBTC"
+    },
+    {
+      "s": "ENSFDUSD"
+    },
+    {
+      "s": "ENSTRY"
+    },
+    {
+      "s": "ENSUSDT"
+    },
+    {
+      "s": "EOSBTC"
+    },
+    {
+      "s": "EOSETH"
+    },
+    {
+      "s": "EOSTRY"
+    },
+    {
+      "s": "EOSUSDT"
+    },
+    {
+      "s": "EPXUSDT"
+    },
+    {
+      "s": "ERNUSDT"
+    },
+    {
+      "s": "ETCBNB"
+    },
+    {
+      "s": "ETCBTC"
+    },
+    {
+      "s": "ETCETH"
+    },
+    {
+      "s": "ETCFDUSD"
+    },
+    {
+      "s": "ETCTRY"
+    },
+    {
+      "s": "ETCUSDT"
+    },
+    {
+      "s": "ETHAEUR"
+    },
+    {
+      "s": "ETHBIDR"
+    },
+    {
+      "s": "ETHBRL"
+    },
+    {
+      "s": "ETHBTC"
+    },
+    {
+      "s": "ETHDAI"
+    },
+    {
+      "s": "ETHEUR"
+    },
+    {
+      "s": "ETHFDUSD"
+    },
+    {
+      "s": "ETHFIBNB"
+    },
+    {
+      "s": "ETHFIBTC"
+    },
+    {
+      "s": "ETHFIFDUSD"
+    },
+    {
+      "s": "ETHFITRY"
+    },
+    {
+      "s": "ETHFIUSDC"
+    },
+    {
+      "s": "ETHFIUSDT"
+    },
+    {
+      "s": "ETHJPY"
+    },
+    {
+      "s": "ETHPLN"
+    },
+    {
+      "s": "ETHTRY"
+    },
+    {
+      "s": "ETHTUSD"
+    },
+    {
+      "s": "ETHUAH"
+    },
+    {
+      "s": "ETHUSDC"
+    },
+    {
+      "s": "ETHUSDT"
+    },
+    {
+      "s": "ETHZAR"
+    },
+    {
+      "s": "EURAEUR"
+    },
+    {
+      "s": "EURUSDC"
+    },
+    {
+      "s": "EURUSDT"
+    },
+    {
+      "s": "FARMUSDT"
+    },
+    {
+      "s": "FDUSDTRY"
+    },
+    {
+      "s": "FDUSDUSDT"
+    },
+    {
+      "s": "FETBNB"
+    },
+    {
+      "s": "FETBRL"
+    },
+    {
+      "s": "FETBTC"
+    },
+    {
+      "s": "FETFDUSD"
+    },
+    {
+      "s": "FETTRY"
+    },
+    {
+      "s": "FETUSDC"
+    },
+    {
+      "s": "FETUSDT"
+    },
+    {
+      "s": "FIDABTC"
+    },
+    {
+      "s": "FIDATRY"
+    },
+    {
+      "s": "FIDAUSDT"
+    },
+    {
+      "s": "FILBNB"
+    },
+    {
+      "s": "FILBTC"
+    },
+    {
+      "s": "FILETH"
+    },
+    {
+      "s": "FILFDUSD"
+    },
+    {
+      "s": "FILTRY"
+    },
+    {
+      "s": "FILUSDC"
+    },
+    {
+      "s": "FILUSDT"
+    },
+    {
+      "s": "FIOBTC"
+    },
+    {
+      "s": "FIOUSDT"
+    },
+    {
+      "s": "FIROBTC"
+    },
+    {
+      "s": "FIROUSDT"
+    },
+    {
+      "s": "FISBTC"
+    },
+    {
+      "s": "FISUSDT"
+    },
+    {
+      "s": "FLMBTC"
+    },
+    {
+      "s": "FLMUSDT"
+    },
+    {
+      "s": "FLOKIFDUSD"
+    },
+    {
+      "s": "FLOKITRY"
+    },
+    {
+      "s": "FLOKIUSDC"
+    },
+    {
+      "s": "FLOKIUSDT"
+    },
+    {
+      "s": "FLOWBTC"
+    },
+    {
+      "s": "FLOWUSDT"
+    },
+    {
+      "s": "FLUXBTC"
+    },
+    {
+      "s": "FLUXUSDT"
+    },
+    {
+      "s": "FORBTC"
+    },
+    {
+      "s": "FORTHBTC"
+    },
+    {
+      "s": "FORTHUSDT"
+    },
+    {
+      "s": "FORUSDT"
+    },
+    {
+      "s": "FRONTBTC"
+    },
+    {
+      "s": "FRONTTRY"
+    },
+    {
+      "s": "FRONTTUSD"
+    },
+    {
+      "s": "FRONTUSDT"
+    },
+    {
+      "s": "FTMBNB"
+    },
+    {
+      "s": "FTMBTC"
+    },
+    {
+      "s": "FTMETH"
+    },
+    {
+      "s": "FTMEUR"
+    },
+    {
+      "s": "FTMFDUSD"
+    },
+    {
+      "s": "FTMTRY"
+    },
+    {
+      "s": "FTMUSDC"
+    },
+    {
+      "s": "FTMUSDT"
+    },
+    {
+      "s": "FTTUSDT"
+    },
+    {
+      "s": "FUNUSDT"
+    },
+    {
+      "s": "FXSBTC"
+    },
+    {
+      "s": "FXSUSDT"
+    },
+    {
+      "s": "GALABNB"
+    },
+    {
+      "s": "GALABRL"
+    },
+    {
+      "s": "GALABTC"
+    },
+    {
+      "s": "GALAETH"
+    },
+    {
+      "s": "GALAEUR"
+    },
+    {
+      "s": "GALAFDUSD"
+    },
+    {
+      "s": "GALATRY"
+    },
+    {
+      "s": "GALAUSDT"
+    },
+    {
+      "s": "GALBTC"
+    },
+    {
+      "s": "GALTRY"
+    },
+    {
+      "s": "GALUSDT"
+    },
+    {
+      "s": "GASBTC"
+    },
+    {
+      "s": "GASFDUSD"
+    },
+    {
+      "s": "GASTRY"
+    },
+    {
+      "s": "GASUSDT"
+    },
+    {
+      "s": "GFTUSDT"
+    },
+    {
+      "s": "GHSTUSDT"
+    },
+    {
+      "s": "GLMBTC"
+    },
+    {
+      "s": "GLMRBTC"
+    },
+    {
+      "s": "GLMRUSDT"
+    },
+    {
+      "s": "GLMUSDT"
+    },
+    {
+      "s": "GMTBTC"
+    },
+    {
+      "s": "GMTEUR"
+    },
+    {
+      "s": "GMTTRY"
+    },
+    {
+      "s": "GMTUSDT"
+    },
+    {
+      "s": "GMXBTC"
+    },
+    {
+      "s": "GMXUSDT"
+    },
+    {
+      "s": "GNOUSDT"
+    },
+    {
+      "s": "GNSUSDT"
+    },
+    {
+      "s": "GRTBTC"
+    },
+    {
+      "s": "GRTETH"
+    },
+    {
+      "s": "GRTEUR"
+    },
+    {
+      "s": "GRTFDUSD"
+    },
+    {
+      "s": "GRTTRY"
+    },
+    {
+      "s": "GRTUSDT"
+    },
+    {
+      "s": "GTCBTC"
+    },
+    {
+      "s": "GTCUSDT"
+    },
+    {
+      "s": "HARDBTC"
+    },
+    {
+      "s": "HARDUSDT"
+    },
+    {
+      "s": "HBARBNB"
+    },
+    {
+      "s": "HBARBTC"
+    },
+    {
+      "s": "HBARTRY"
+    },
+    {
+      "s": "HBARUSDT"
+    },
+    {
+      "s": "HFTBTC"
+    },
+    {
+      "s": "HFTUSDT"
+    },
+    {
+      "s": "HIFIUSDT"
+    },
+    {
+      "s": "HIGHBTC"
+    },
+    {
+      "s": "HIGHUSDT"
+    },
+    {
+      "s": "HIVEBTC"
+    },
+    {
+      "s": "HIVEUSDT"
+    },
+    {
+      "s": "HOOKBTC"
+    },
+    {
+      "s": "HOOKUSDT"
+    },
+    {
+      "s": "HOTETH"
+    },
+    {
+      "s": "HOTTRY"
+    },
+    {
+      "s": "HOTUSDT"
+    },
+    {
+      "s": "ICPBNB"
+    },
+    {
+      "s": "ICPBTC"
+    },
+    {
+      "s": "ICPETH"
+    },
+    {
+      "s": "ICPEUR"
+    },
+    {
+      "s": "ICPFDUSD"
+    },
+    {
+      "s": "ICPTRY"
+    },
+    {
+      "s": "ICPUSDT"
+    },
+    {
+      "s": "ICXBTC"
+    },
+    {
+      "s": "ICXUSDT"
+    },
+    {
+      "s": "IDBTC"
+    },
+    {
+      "s": "IDEXBTC"
+    },
+    {
+      "s": "IDEXUSDT"
+    },
+    {
+      "s": "IDTRY"
+    },
+    {
+      "s": "IDUSDT"
+    },
+    {
+      "s": "ILVBTC"
+    },
+    {
+      "s": "ILVUSDT"
+    },
+    {
+      "s": "IMXBTC"
+    },
+    {
+      "s": "IMXTRY"
+    },
+    {
+      "s": "IMXUSDT"
+    },
+    {
+      "s": "INJBNB"
+    },
+    {
+      "s": "INJBTC"
+    },
+    {
+      "s": "INJETH"
+    },
+    {
+      "s": "INJFDUSD"
+    },
+    {
+      "s": "INJTRY"
+    },
+    {
+      "s": "INJTUSD"
+    },
+    {
+      "s": "INJUSDC"
+    },
+    {
+      "s": "INJUSDT"
+    },
+    {
+      "s": "IOSTBTC"
+    },
+    {
+      "s": "IOSTUSDT"
+    },
+    {
+      "s": "IOTABTC"
+    },
+    {
+      "s": "IOTAETH"
+    },
+    {
+      "s": "IOTAFDUSD"
+    },
+    {
+      "s": "IOTATRY"
+    },
+    {
+      "s": "IOTAUSDT"
+    },
+    {
+      "s": "IOTXBTC"
+    },
+    {
+      "s": "IOTXETH"
+    },
+    {
+      "s": "IOTXUSDT"
+    },
+    {
+      "s": "IQUSDT"
+    },
+    {
+      "s": "IRISBTC"
+    },
+    {
+      "s": "IRISUSDT"
+    },
+    {
+      "s": "JASMYTRY"
+    },
+    {
+      "s": "JASMYUSDT"
+    },
+    {
+      "s": "JOEBTC"
+    },
+    {
+      "s": "JOETRY"
+    },
+    {
+      "s": "JOEUSDT"
+    },
+    {
+      "s": "JSTBTC"
+    },
+    {
+      "s": "JSTUSDT"
+    },
+    {
+      "s": "JTOFDUSD"
+    },
+    {
+      "s": "JTOTRY"
+    },
+    {
+      "s": "JTOUSDC"
+    },
+    {
+      "s": "JTOUSDT"
+    },
+    {
+      "s": "JUPFDUSD"
+    },
+    {
+      "s": "JUPTRY"
+    },
+    {
+      "s": "JUPUSDC"
+    },
+    {
+      "s": "JUPUSDT"
+    },
+    {
+      "s": "JUVTRY"
+    },
+    {
+      "s": "JUVUSDT"
+    },
+    {
+      "s": "KAVABTC"
+    },
+    {
+      "s": "KAVAUSDT"
+    },
+    {
+      "s": "KDABTC"
+    },
+    {
+      "s": "KDAUSDT"
+    },
+    {
+      "s": "KEYUSDT"
+    },
+    {
+      "s": "KLAYBTC"
+    },
+    {
+      "s": "KLAYUSDT"
+    },
+    {
+      "s": "KMDBTC"
+    },
+    {
+      "s": "KMDUSDT"
+    },
+    {
+      "s": "KNCBTC"
+    },
+    {
+      "s": "KNCUSDT"
+    },
+    {
+      "s": "KP3RUSDT"
+    },
+    {
+      "s": "KSMBTC"
+    },
+    {
+      "s": "KSMUSDT"
+    },
+    {
+      "s": "LAZIOBTC"
+    },
+    {
+      "s": "LAZIOTRY"
+    },
+    {
+      "s": "LAZIOUSDT"
+    },
+    {
+      "s": "LDOBTC"
+    },
+    {
+      "s": "LDOFDUSD"
+    },
+    {
+      "s": "LDOTRY"
+    },
+    {
+      "s": "LDOUSDT"
+    },
+    {
+      "s": "LEVERTRY"
+    },
+    {
+      "s": "LEVERUSDT"
+    },
+    {
+      "s": "LINABTC"
+    },
+    {
+      "s": "LINAUSDT"
+    },
+    {
+      "s": "LINKBNB"
+    },
+    {
+      "s": "LINKBRL"
+    },
+    {
+      "s": "LINKBTC"
+    },
+    {
+      "s": "LINKETH"
+    },
+    {
+      "s": "LINKEUR"
+    },
+    {
+      "s": "LINKFDUSD"
+    },
+    {
+      "s": "LINKTRY"
+    },
+    {
+      "s": "LINKTUSD"
+    },
+    {
+      "s": "LINKUSDC"
+    },
+    {
+      "s": "LINKUSDT"
+    },
+    {
+      "s": "LITBTC"
+    },
+    {
+      "s": "LITUSDT"
+    },
+    {
+      "s": "LOKABTC"
+    },
+    {
+      "s": "LOKAUSDT"
+    },
+    {
+      "s": "LOOMBTC"
+    },
+    {
+      "s": "LOOMTRY"
+    },
+    {
+      "s": "LOOMUSDT"
+    },
+    {
+      "s": "LPTBNB"
+    },
+    {
+      "s": "LPTBTC"
+    },
+    {
+      "s": "LPTTRY"
+    },
+    {
+      "s": "LPTUSDT"
+    },
+    {
+      "s": "LQTYBTC"
+    },
+    {
+      "s": "LQTYFDUSD"
+    },
+    {
+      "s": "LQTYUSDT"
+    },
+    {
+      "s": "LRCBTC"
+    },
+    {
+      "s": "LRCETH"
+    },
+    {
+      "s": "LRCTRY"
+    },
+    {
+      "s": "LRCUSDT"
+    },
+    {
+      "s": "LSKBTC"
+    },
+    {
+      "s": "LSKETH"
+    },
+    {
+      "s": "LSKUSDT"
+    },
+    {
+      "s": "LTCBNB"
+    },
+    {
+      "s": "LTCBRL"
+    },
+    {
+      "s": "LTCBTC"
+    },
+    {
+      "s": "LTCETH"
+    },
+    {
+      "s": "LTCEUR"
+    },
+    {
+      "s": "LTCFDUSD"
+    },
+    {
+      "s": "LTCTRY"
+    },
+    {
+      "s": "LTCTUSD"
+    },
+    {
+      "s": "LTCUSDC"
+    },
+    {
+      "s": "LTCUSDT"
+    },
+    {
+      "s": "LTOBTC"
+    },
+    {
+      "s": "LTOUSDT"
+    },
+    {
+      "s": "LUNATRY"
+    },
+    {
+      "s": "LUNAUSDT"
+    },
+    {
+      "s": "LUNCTRY"
+    },
+    {
+      "s": "LUNCUSDT"
+    },
+    {
+      "s": "MAGICBTC"
+    },
+    {
+      "s": "MAGICFDUSD"
+    },
+    {
+      "s": "MAGICTRY"
+    },
+    {
+      "s": "MAGICUSDT"
+    },
+    {
+      "s": "MANABTC"
+    },
+    {
+      "s": "MANAETH"
+    },
+    {
+      "s": "MANATRY"
+    },
+    {
+      "s": "MANAUSDT"
+    },
+    {
+      "s": "MANTABNB"
+    },
+    {
+      "s": "MANTABTC"
+    },
+    {
+      "s": "MANTAFDUSD"
+    },
+    {
+      "s": "MANTATRY"
+    },
+    {
+      "s": "MANTAUSDC"
+    },
+    {
+      "s": "MANTAUSDT"
+    },
+    {
+      "s": "MASKBNB"
+    },
+    {
+      "s": "MASKTRY"
+    },
+    {
+      "s": "MASKUSDT"
+    },
+    {
+      "s": "MATICBNB"
+    },
+    {
+      "s": "MATICBRL"
+    },
+    {
+      "s": "MATICBTC"
+    },
+    {
+      "s": "MATICETH"
+    },
+    {
+      "s": "MATICEUR"
+    },
+    {
+      "s": "MATICFDUSD"
+    },
+    {
+      "s": "MATICTRY"
+    },
+    {
+      "s": "MATICTUSD"
+    },
+    {
+      "s": "MATICUSDC"
+    },
+    {
+      "s": "MATICUSDT"
+    },
+    {
+      "s": "MAVBTC"
+    },
+    {
+      "s": "MAVTRY"
+    },
+    {
+      "s": "MAVTUSD"
+    },
+    {
+      "s": "MAVUSDT"
+    },
+    {
+      "s": "MBLUSDT"
+    },
+    {
+      "s": "MBOXBTC"
+    },
+    {
+      "s": "MBOXTRY"
+    },
+    {
+      "s": "MBOXUSDT"
+    },
+    {
+      "s": "MDTBTC"
+    },
+    {
+      "s": "MDTUSDT"
+    },
+    {
+      "s": "MDXBTC"
+    },
+    {
+      "s": "MDXUSDT"
+    },
+    {
+      "s": "MEMEBNB"
+    },
+    {
+      "s": "MEMEETH"
+    },
+    {
+      "s": "MEMEFDUSD"
+    },
+    {
+      "s": "MEMETRY"
+    },
+    {
+      "s": "MEMETUSD"
+    },
+    {
+      "s": "MEMEUSDT"
+    },
+    {
+      "s": "METISBTC"
+    },
+    {
+      "s": "METISFDUSD"
+    },
+    {
+      "s": "METISTRY"
+    },
+    {
+      "s": "METISUSDT"
+    },
+    {
+      "s": "MINABTC"
+    },
+    {
+      "s": "MINATRY"
+    },
+    {
+      "s": "MINAUSDT"
+    },
+    {
+      "s": "MKRBTC"
+    },
+    {
+      "s": "MKRTRY"
+    },
+    {
+      "s": "MKRUSDT"
+    },
+    {
+      "s": "MLNBTC"
+    },
+    {
+      "s": "MLNUSDT"
+    },
+    {
+      "s": "MOVRBTC"
+    },
+    {
+      "s": "MOVRTRY"
+    },
+    {
+      "s": "MOVRUSDT"
+    },
+    {
+      "s": "MTLBTC"
+    },
+    {
+      "s": "MTLTRY"
+    },
+    {
+      "s": "MTLUSDT"
+    },
+    {
+      "s": "NEARBNB"
+    },
+    {
+      "s": "NEARBTC"
+    },
+    {
+      "s": "NEARETH"
+    },
+    {
+      "s": "NEAREUR"
+    },
+    {
+      "s": "NEARFDUSD"
+    },
+    {
+      "s": "NEARTRY"
+    },
+    {
+      "s": "NEARUSDC"
+    },
+    {
+      "s": "NEARUSDT"
+    },
+    {
+      "s": "NEOBTC"
+    },
+    {
+      "s": "NEOTRY"
+    },
+    {
+      "s": "NEOUSDT"
+    },
+    {
+      "s": "NEXOBTC"
+    },
+    {
+      "s": "NEXOUSDT"
+    },
+    {
+      "s": "NFPBNB"
+    },
+    {
+      "s": "NFPBTC"
+    },
+    {
+      "s": "NFPFDUSD"
+    },
+    {
+      "s": "NFPTRY"
+    },
+    {
+      "s": "NFPTUSD"
+    },
+    {
+      "s": "NFPUSDT"
+    },
+    {
+      "s": "NKNBTC"
+    },
+    {
+      "s": "NKNUSDT"
+    },
+    {
+      "s": "NMRBTC"
+    },
+    {
+      "s": "NMRUSDT"
+    },
+    {
+      "s": "NTRNBNB"
+    },
+    {
+      "s": "NTRNBTC"
+    },
+    {
+      "s": "NTRNTRY"
+    },
+    {
+      "s": "NTRNUSDT"
+    },
+    {
+      "s": "NULSBTC"
+    },
+    {
+      "s": "NULSUSDT"
+    },
+    {
+      "s": "OAXBTC"
+    },
+    {
+      "s": "OAXUSDT"
+    },
+    {
+      "s": "OCEANBNB"
+    },
+    {
+      "s": "OCEANBTC"
+    },
+    {
+      "s": "OCEANTRY"
+    },
+    {
+      "s": "OCEANUSDT"
+    },
+    {
+      "s": "OGBTC"
+    },
+    {
+      "s": "OGNBTC"
+    },
+    {
+      "s": "OGNTRY"
+    },
+    {
+      "s": "OGNUSDT"
+    },
+    {
+      "s": "OGTRY"
+    },
+    {
+      "s": "OGUSDT"
+    },
+    {
+      "s": "OMBTC"
+    },
+    {
+      "s": "OMGUSDT"
+    },
+    {
+      "s": "OMTRY"
+    },
+    {
+      "s": "OMUSDT"
+    },
+    {
+      "s": "ONEBTC"
+    },
+    {
+      "s": "ONETRY"
+    },
+    {
+      "s": "ONEUSDT"
+    },
+    {
+      "s": "ONGBTC"
+    },
+    {
+      "s": "ONGUSDT"
+    },
+    {
+      "s": "ONTBTC"
+    },
+    {
+      "s": "ONTTRY"
+    },
+    {
+      "s": "ONTUSDT"
+    },
+    {
+      "s": "OOKIUSDT"
+    },
+    {
+      "s": "OPBNB"
+    },
+    {
+      "s": "OPBTC"
+    },
+    {
+      "s": "OPETH"
+    },
+    {
+      "s": "OPEUR"
+    },
+    {
+      "s": "OPFDUSD"
+    },
+    {
+      "s": "OPTRY"
+    },
+    {
+      "s": "OPUSDC"
+    },
+    {
+      "s": "OPUSDT"
+    },
+    {
+      "s": "ORDIBTC"
+    },
+    {
+      "s": "ORDIFDUSD"
+    },
+    {
+      "s": "ORDITRY"
+    },
+    {
+      "s": "ORDITUSD"
+    },
+    {
+      "s": "ORDIUSDC"
+    },
+    {
+      "s": "ORDIUSDT"
+    },
+    {
+      "s": "ORNBTC"
+    },
+    {
+      "s": "ORNUSDT"
+    },
+    {
+      "s": "OSMOBTC"
+    },
+    {
+      "s": "OSMOUSDT"
+    },
+    {
+      "s": "OXTBTC"
+    },
+    {
+      "s": "OXTUSDT"
+    },
+    {
+      "s": "PAXGBTC"
+    },
+    {
+      "s": "PAXGTRY"
+    },
+    {
+      "s": "PAXGUSDT"
+    },
+    {
+      "s": "PDABTC"
+    },
+    {
+      "s": "PDAUSDT"
+    },
+    {
+      "s": "PENDLEBTC"
+    },
+    {
+      "s": "PENDLEFDUSD"
+    },
+    {
+      "s": "PENDLETRY"
+    },
+    {
+      "s": "PENDLEUSDC"
+    },
+    {
+      "s": "PENDLEUSDT"
+    },
+    {
+      "s": "PEOPLEBTC"
+    },
+    {
+      "s": "PEOPLEUSDT"
+    },
+    {
+      "s": "PEPEFDUSD"
+    },
+    {
+      "s": "PEPETRY"
+    },
+    {
+      "s": "PEPETUSD"
+    },
+    {
+      "s": "PEPEUSDC"
+    },
+    {
+      "s": "PEPEUSDT"
+    },
+    {
+      "s": "PERPBTC"
+    },
+    {
+      "s": "PERPUSDT"
+    },
+    {
+      "s": "PHABTC"
+    },
+    {
+      "s": "PHAUSDT"
+    },
+    {
+      "s": "PHBBTC"
+    },
+    {
+      "s": "PHBUSDT"
+    },
+    {
+      "s": "PIVXBTC"
+    },
+    {
+      "s": "PIVXUSDT"
+    },
+    {
+      "s": "PIXELBNB"
+    },
+    {
+      "s": "PIXELBTC"
+    },
+    {
+      "s": "PIXELFDUSD"
+    },
+    {
+      "s": "PIXELTRY"
+    },
+    {
+      "s": "PIXELUSDC"
+    },
+    {
+      "s": "PIXELUSDT"
+    },
+    {
+      "s": "POLSUSDT"
+    },
+    {
+      "s": "POLYXBTC"
+    },
+    {
+      "s": "POLYXUSDT"
+    },
+    {
+      "s": "PONDBTC"
+    },
+    {
+      "s": "PONDUSDT"
+    },
+    {
+      "s": "PORTALBNB"
+    },
+    {
+      "s": "PORTALBTC"
+    },
+    {
+      "s": "PORTALFDUSD"
+    },
+    {
+      "s": "PORTALTRY"
+    },
+    {
+      "s": "PORTALUSDT"
+    },
+    {
+      "s": "PORTOBTC"
+    },
+    {
+      "s": "PORTOTRY"
+    },
+    {
+      "s": "PORTOUSDT"
+    },
+    {
+      "s": "POWRBTC"
+    },
+    {
+      "s": "POWRETH"
+    },
+    {
+      "s": "POWRUSDT"
+    },
+    {
+      "s": "PROMBTC"
+    },
+    {
+      "s": "PROMUSDT"
+    },
+    {
+      "s": "PROSUSDT"
+    },
+    {
+      "s": "PSGTRY"
+    },
+    {
+      "s": "PSGUSDT"
+    },
+    {
+      "s": "PUNDIXUSDT"
+    },
+    {
+      "s": "PYRBTC"
+    },
+    {
+      "s": "PYRUSDT"
+    },
+    {
+      "s": "PYTHBTC"
+    },
+    {
+      "s": "PYTHFDUSD"
+    },
+    {
+      "s": "PYTHTRY"
+    },
+    {
+      "s": "PYTHUSDT"
+    },
+    {
+      "s": "QIBTC"
+    },
+    {
+      "s": "QIUSDT"
+    },
+    {
+      "s": "QKCBTC"
+    },
+    {
+      "s": "QKCUSDT"
+    },
+    {
+      "s": "QNTBTC"
+    },
+    {
+      "s": "QNTUSDT"
+    },
+    {
+      "s": "QTUMBTC"
+    },
+    {
+      "s": "QTUMETH"
+    },
+    {
+      "s": "QTUMUSDT"
+    },
+    {
+      "s": "QUICKBTC"
+    },
+    {
+      "s": "QUICKUSDT"
+    },
+    {
+      "s": "RADBTC"
+    },
+    {
+      "s": "RADTRY"
+    },
+    {
+      "s": "RADUSDT"
+    },
+    {
+      "s": "RAREBTC"
+    },
+    {
+      "s": "RARETRY"
+    },
+    {
+      "s": "RAREUSDT"
+    },
+    {
+      "s": "RAYBNB"
+    },
+    {
+      "s": "RAYFDUSD"
+    },
+    {
+      "s": "RAYTRY"
+    },
+    {
+      "s": "RAYUSDT"
+    },
+    {
+      "s": "RDNTBTC"
+    },
+    {
+      "s": "RDNTTRY"
+    },
+    {
+      "s": "RDNTUSDT"
+    },
+    {
+      "s": "REEFTRY"
+    },
+    {
+      "s": "REEFUSDT"
+    },
+    {
+      "s": "REIUSDT"
+    },
+    {
+      "s": "RENBTC"
+    },
+    {
+      "s": "RENUSDT"
+    },
+    {
+      "s": "REQBTC"
+    },
+    {
+      "s": "REQUSDT"
+    },
+    {
+      "s": "RIFBTC"
+    },
+    {
+      "s": "RIFUSDT"
+    },
+    {
+      "s": "RLCBTC"
+    },
+    {
+      "s": "RLCETH"
+    },
+    {
+      "s": "RLCUSDT"
+    },
+    {
+      "s": "RNDRBRL"
+    },
+    {
+      "s": "RNDRBTC"
+    },
+    {
+      "s": "RNDREUR"
+    },
+    {
+      "s": "RNDRFDUSD"
+    },
+    {
+      "s": "RNDRTRY"
+    },
+    {
+      "s": "RNDRUSDT"
+    },
+    {
+      "s": "RONINBTC"
+    },
+    {
+      "s": "RONINFDUSD"
+    },
+    {
+      "s": "RONINTRY"
+    },
+    {
+      "s": "RONINUSDT"
+    },
+    {
+      "s": "ROSEBTC"
+    },
+    {
+      "s": "ROSEETH"
+    },
+    {
+      "s": "ROSETRY"
+    },
+    {
+      "s": "ROSEUSDT"
+    },
+    {
+      "s": "RPLUSDT"
+    },
+    {
+      "s": "RSRUSDT"
+    },
+    {
+      "s": "RUNEBNB"
+    },
+    {
+      "s": "RUNEBTC"
+    },
+    {
+      "s": "RUNEETH"
+    },
+    {
+      "s": "RUNEFDUSD"
+    },
+    {
+      "s": "RUNETUSD"
+    },
+    {
+      "s": "RUNEUSDT"
+    },
+    {
+      "s": "RVNBTC"
+    },
+    {
+      "s": "RVNTRY"
+    },
+    {
+      "s": "RVNUSDT"
+    },
+    {
+      "s": "SAGABNB"
+    },
+    {
+      "s": "SAGABTC"
+    },
+    {
+      "s": "SAGAFDUSD"
+    },
+    {
+      "s": "SAGATRY"
+    },
+    {
+      "s": "SAGAUSDT"
+    },
+    {
+      "s": "SANDBNB"
+    },
+    {
+      "s": "SANDBTC"
+    },
+    {
+      "s": "SANDETH"
+    },
+    {
+      "s": "SANDFDUSD"
+    },
+    {
+      "s": "SANDTRY"
+    },
+    {
+      "s": "SANDUSDT"
+    },
+    {
+      "s": "SANTOSBTC"
+    },
+    {
+      "s": "SANTOSTRY"
+    },
+    {
+      "s": "SANTOSUSDT"
+    },
+    {
+      "s": "SCETH"
+    },
+    {
+      "s": "SCRTBTC"
+    },
+    {
+      "s": "SCRTUSDT"
+    },
+    {
+      "s": "SCUSDT"
+    },
+    {
+      "s": "SEIBNB"
+    },
+    {
+      "s": "SEIBTC"
+    },
+    {
+      "s": "SEIFDUSD"
+    },
+    {
+      "s": "SEITRY"
+    },
+    {
+      "s": "SEITUSD"
+    },
+    {
+      "s": "SEIUSDC"
+    },
+    {
+      "s": "SEIUSDT"
+    },
+    {
+      "s": "SFPBTC"
+    },
+    {
+      "s": "SFPUSDT"
+    },
+    {
+      "s": "SHIBBRL"
+    },
+    {
+      "s": "SHIBDOGE"
+    },
+    {
+      "s": "SHIBEUR"
+    },
+    {
+      "s": "SHIBFDUSD"
+    },
+    {
+      "s": "SHIBTRY"
+    },
+    {
+      "s": "SHIBTUSD"
+    },
+    {
+      "s": "SHIBUSDC"
+    },
+    {
+      "s": "SHIBUSDT"
+    },
+    {
+      "s": "SKLBTC"
+    },
+    {
+      "s": "SKLTRY"
+    },
+    {
+      "s": "SKLUSDT"
+    },
+    {
+      "s": "SLPETH"
+    },
+    {
+      "s": "SLPTRY"
+    },
+    {
+      "s": "SLPUSDT"
+    },
+    {
+      "s": "SNTBTC"
+    },
+    {
+      "s": "SNTETH"
+    },
+    {
+      "s": "SNTUSDT"
+    },
+    {
+      "s": "SNXBTC"
+    },
+    {
+      "s": "SNXETH"
+    },
+    {
+      "s": "SNXTRY"
+    },
+    {
+      "s": "SNXUSDT"
+    },
+    {
+      "s": "SOLBNB"
+    },
+    {
+      "s": "SOLBRL"
+    },
+    {
+      "s": "SOLBTC"
+    },
+    {
+      "s": "SOLETH"
+    },
+    {
+      "s": "SOLEUR"
+    },
+    {
+      "s": "SOLFDUSD"
+    },
+    {
+      "s": "SOLTRY"
+    },
+    {
+      "s": "SOLTUSD"
+    },
+    {
+      "s": "SOLUSDC"
+    },
+    {
+      "s": "SOLUSDT"
+    },
+    {
+      "s": "SPELLTRY"
+    },
+    {
+      "s": "SPELLUSDT"
+    },
+    {
+      "s": "SSVBTC"
+    },
+    {
+      "s": "SSVETH"
+    },
+    {
+      "s": "SSVTUSD"
+    },
+    {
+      "s": "SSVUSDT"
+    },
+    {
+      "s": "STEEMBTC"
+    },
+    {
+      "s": "STEEMETH"
+    },
+    {
+      "s": "STEEMUSDT"
+    },
+    {
+      "s": "STGBTC"
+    },
+    {
+      "s": "STGUSDT"
+    },
+    {
+      "s": "STMXUSDT"
+    },
+    {
+      "s": "STORJBTC"
+    },
+    {
+      "s": "STORJTRY"
+    },
+    {
+      "s": "STORJUSDT"
+    },
+    {
+      "s": "STPTBTC"
+    },
+    {
+      "s": "STPTUSDT"
+    },
+    {
+      "s": "STRAXBTC"
+    },
+    {
+      "s": "STRAXTRY"
+    },
+    {
+      "s": "STRAXUSDT"
+    },
+    {
+      "s": "STRKBTC"
+    },
+    {
+      "s": "STRKFDUSD"
+    },
+    {
+      "s": "STRKTRY"
+    },
+    {
+      "s": "STRKUSDC"
+    },
+    {
+      "s": "STRKUSDT"
+    },
+    {
+      "s": "STXBNB"
+    },
+    {
+      "s": "STXBTC"
+    },
+    {
+      "s": "STXFDUSD"
+    },
+    {
+      "s": "STXTRY"
+    },
+    {
+      "s": "STXUSDT"
+    },
+    {
+      "s": "SUIBNB"
+    },
+    {
+      "s": "SUIBTC"
+    },
+    {
+      "s": "SUIEUR"
+    },
+    {
+      "s": "SUIFDUSD"
+    },
+    {
+      "s": "SUITRY"
+    },
+    {
+      "s": "SUITUSD"
+    },
+    {
+      "s": "SUIUSDC"
+    },
+    {
+      "s": "SUIUSDT"
+    },
+    {
+      "s": "SUNUSDT"
+    },
+    {
+      "s": "SUPERBTC"
+    },
+    {
+      "s": "SUPERFDUSD"
+    },
+    {
+      "s": "SUPERTRY"
+    },
+    {
+      "s": "SUPERUSDT"
+    },
+    {
+      "s": "SUSHIBTC"
+    },
+    {
+      "s": "SUSHIUSDT"
+    },
+    {
+      "s": "SXPBNB"
+    },
+    {
+      "s": "SXPBTC"
+    },
+    {
+      "s": "SXPTRY"
+    },
+    {
+      "s": "SXPUSDT"
+    },
+    {
+      "s": "SYNBTC"
+    },
+    {
+      "s": "SYNUSDT"
+    },
+    {
+      "s": "SYSBTC"
+    },
+    {
+      "s": "SYSUSDT"
+    },
+    {
+      "s": "TAOBTC"
+    },
+    {
+      "s": "TAOFDUSD"
+    },
+    {
+      "s": "TAOTRY"
+    },
+    {
+      "s": "TAOUSDT"
+    },
+    {
+      "s": "TFUELBTC"
+    },
+    {
+      "s": "TFUELUSDT"
+    },
+    {
+      "s": "THETABTC"
+    },
+    {
+      "s": "THETAETH"
+    },
+    {
+      "s": "THETAFDUSD"
+    },
+    {
+      "s": "THETATRY"
+    },
+    {
+      "s": "THETAUSDT"
+    },
+    {
+      "s": "TIABTC"
+    },
+    {
+      "s": "TIAFDUSD"
+    },
+    {
+      "s": "TIATRY"
+    },
+    {
+      "s": "TIATUSD"
+    },
+    {
+      "s": "TIAUSDC"
+    },
+    {
+      "s": "TIAUSDT"
+    },
+    {
+      "s": "TKOBTC"
+    },
+    {
+      "s": "TKOUSDT"
+    },
+    {
+      "s": "TLMBTC"
+    },
+    {
+      "s": "TLMTRY"
+    },
+    {
+      "s": "TLMUSDT"
+    },
+    {
+      "s": "TNSRBTC"
+    },
+    {
+      "s": "TNSRFDUSD"
+    },
+    {
+      "s": "TNSRTRY"
+    },
+    {
+      "s": "TNSRUSDT"
+    },
+    {
+      "s": "TRBBTC"
+    },
+    {
+      "s": "TRBTRY"
+    },
+    {
+      "s": "TRBUSDT"
+    },
+    {
+      "s": "TROYUSDT"
+    },
+    {
+      "s": "TRUBTC"
+    },
+    {
+      "s": "TRUUSDT"
+    },
+    {
+      "s": "TRXBNB"
+    },
+    {
+      "s": "TRXBTC"
+    },
+    {
+      "s": "TRXETH"
+    },
+    {
+      "s": "TRXEUR"
+    },
+    {
+      "s": "TRXTRY"
+    },
+    {
+      "s": "TRXUSDT"
+    },
+    {
+      "s": "TRXXRP"
+    },
+    {
+      "s": "TUSDT"
+    },
+    {
+      "s": "TUSDTRY"
+    },
+    {
+      "s": "TUSDUSDT"
+    },
+    {
+      "s": "TWTBTC"
+    },
+    {
+      "s": "TWTTRY"
+    },
+    {
+      "s": "TWTUSDT"
+    },
+    {
+      "s": "UFTUSDT"
+    },
+    {
+      "s": "UMABTC"
+    },
+    {
+      "s": "UMATRY"
+    },
+    {
+      "s": "UMAUSDT"
+    },
+    {
+      "s": "UNFIBTC"
+    },
+    {
+      "s": "UNFITRY"
+    },
+    {
+      "s": "UNFIUSDT"
+    },
+    {
+      "s": "UNIBTC"
+    },
+    {
+      "s": "UNIETH"
+    },
+    {
+      "s": "UNIFDUSD"
+    },
+    {
+      "s": "UNITRY"
+    },
+    {
+      "s": "UNIUSDC"
+    },
+    {
+      "s": "UNIUSDT"
+    },
+    {
+      "s": "USDCUSDT"
+    },
+    {
+      "s": "USDPUSDT"
+    },
+    {
+      "s": "USDTARS"
+    },
+    {
+      "s": "USDTBIDR"
+    },
+    {
+      "s": "USDTBRL"
+    },
+    {
+      "s": "USDTCZK"
+    },
+    {
+      "s": "USDTDAI"
+    },
+    {
+      "s": "USDTIDRT"
+    },
+    {
+      "s": "USDTMXN"
+    },
+    {
+      "s": "USDTPLN"
+    },
+    {
+      "s": "USDTRON"
+    },
+    {
+      "s": "USDTTRY"
+    },
+    {
+      "s": "USDTUAH"
+    },
+    {
+      "s": "USDTZAR"
+    },
+    {
+      "s": "USTCFDUSD"
+    },
+    {
+      "s": "USTCTRY"
+    },
+    {
+      "s": "USTCUSDT"
+    },
+    {
+      "s": "UTKBTC"
+    },
+    {
+      "s": "UTKUSDT"
+    },
+    {
+      "s": "VANRYBTC"
+    },
+    {
+      "s": "VANRYTRY"
+    },
+    {
+      "s": "VANRYUSDT"
+    },
+    {
+      "s": "VETBNB"
+    },
+    {
+      "s": "VETBTC"
+    },
+    {
+      "s": "VETETH"
+    },
+    {
+      "s": "VETEUR"
+    },
+    {
+      "s": "VETTRY"
+    },
+    {
+      "s": "VETUSDT"
+    },
+    {
+      "s": "VGXUSDT"
+    },
+    {
+      "s": "VIBBTC"
+    },
+    {
+      "s": "VIBUSDT"
+    },
+    {
+      "s": "VICBTC"
+    },
+    {
+      "s": "VICTRY"
+    },
+    {
+      "s": "VICUSDT"
+    },
+    {
+      "s": "VIDTBTC"
+    },
+    {
+      "s": "VIDTUSDT"
+    },
+    {
+      "s": "VITEBTC"
+    },
+    {
+      "s": "VITEUSDT"
+    },
+    {
+      "s": "VOXELBTC"
+    },
+    {
+      "s": "VOXELUSDT"
+    },
+    {
+      "s": "VTHOUSDT"
+    },
+    {
+      "s": "WANBTC"
+    },
+    {
+      "s": "WANUSDT"
+    },
+    {
+      "s": "WAVESBTC"
+    },
+    {
+      "s": "WAVESETH"
+    },
+    {
+      "s": "WAVESTRY"
+    },
+    {
+      "s": "WAVESUSDT"
+    },
+    {
+      "s": "WAXPBTC"
+    },
+    {
+      "s": "WAXPUSDT"
+    },
+    {
+      "s": "WBETHETH"
+    },
+    {
+      "s": "WBETHUSDT"
+    },
+    {
+      "s": "WBTC"
+    },
+    {
+      "s": "WBTCBTC"
+    },
+    {
+      "s": "WBTCETH"
+    },
+    {
+      "s": "WBTCUSDT"
+    },
+    {
+      "s": "WFDUSD"
+    },
+    {
+      "s": "WIFBTC"
+    },
+    {
+      "s": "WIFFDUSD"
+    },
+    {
+      "s": "WIFTRY"
+    },
+    {
+      "s": "WIFUSDC"
+    },
+    {
+      "s": "WIFUSDT"
+    },
+    {
+      "s": "WINBRL"
+    },
+    {
+      "s": "WINEUR"
+    },
+    {
+      "s": "WINGUSDT"
+    },
+    {
+      "s": "WINUSDT"
+    },
+    {
+      "s": "WLDBTC"
+    },
+    {
+      "s": "WLDFDUSD"
+    },
+    {
+      "s": "WLDTRY"
+    },
+    {
+      "s": "WLDUSDC"
+    },
+    {
+      "s": "WLDUSDT"
+    },
+    {
+      "s": "WNXMUSDT"
+    },
+    {
+      "s": "WOOBTC"
+    },
+    {
+      "s": "WOOUSDT"
+    },
+    {
+      "s": "WRXUSDT"
+    },
+    {
+      "s": "WTRY"
+    },
+    {
+      "s": "WUSDT"
+    },
+    {
+      "s": "XAIBNB"
+    },
+    {
+      "s": "XAIBTC"
+    },
+    {
+      "s": "XAIFDUSD"
+    },
+    {
+      "s": "XAITRY"
+    },
+    {
+      "s": "XAITUSD"
+    },
+    {
+      "s": "XAIUSDT"
+    },
+    {
+      "s": "XECTRY"
+    },
+    {
+      "s": "XECUSDT"
+    },
+    {
+      "s": "XEMUSDT"
+    },
+    {
+      "s": "XLMBTC"
+    },
+    {
+      "s": "XLMETH"
+    },
+    {
+      "s": "XLMEUR"
+    },
+    {
+      "s": "XLMTRY"
+    },
+    {
+      "s": "XLMUSDT"
+    },
+    {
+      "s": "XNOBTC"
+    },
+    {
+      "s": "XNOUSDT"
+    },
+    {
+      "s": "XRPBNB"
+    },
+    {
+      "s": "XRPBRL"
+    },
+    {
+      "s": "XRPBTC"
+    },
+    {
+      "s": "XRPETH"
+    },
+    {
+      "s": "XRPEUR"
+    },
+    {
+      "s": "XRPFDUSD"
+    },
+    {
+      "s": "XRPTRY"
+    },
+    {
+      "s": "XRPTUSD"
+    },
+    {
+      "s": "XRPUSDC"
+    },
+    {
+      "s": "XRPUSDT"
+    },
+    {
+      "s": "XTZBTC"
+    },
+    {
+      "s": "XTZUSDT"
+    },
+    {
+      "s": "XVGETH"
+    },
+    {
+      "s": "XVGTRY"
+    },
+    {
+      "s": "XVGUSDT"
+    },
+    {
+      "s": "XVSBNB"
+    },
+    {
+      "s": "XVSBTC"
+    },
+    {
+      "s": "XVSTRY"
+    },
+    {
+      "s": "XVSUSDT"
+    },
+    {
+      "s": "YFIBTC"
+    },
+    {
+      "s": "YFIUSDT"
+    },
+    {
+      "s": "YGGBTC"
+    },
+    {
+      "s": "YGGUSDC"
+    },
+    {
+      "s": "YGGUSDT"
+    },
+    {
+      "s": "ZECBTC"
+    },
+    {
+      "s": "ZECETH"
+    },
+    {
+      "s": "ZECUSDT"
+    },
+    {
+      "s": "ZENBTC"
+    },
+    {
+      "s": "ZENETH"
+    },
+    {
+      "s": "ZENUSDT"
+    },
+    {
+      "s": "ZILBTC"
+    },
+    {
+      "s": "ZILETH"
+    },
+    {
+      "s": "ZILTRY"
+    },
+    {
+      "s": "ZILUSDT"
+    },
+    {
+      "s": "ZRXBTC"
+    },
+    {
+      "s": "ZRXUSDT"
+    }
+  ]
 }
