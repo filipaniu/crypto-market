@@ -4,6 +4,7 @@ import MarketValue from "./MarketValue";
 import './CoinList.css';
 import {useNavigate} from "react-router-dom";
 import * as _ from "lodash";
+import symbols from './symbols.json'
 
 const CurrencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -12,11 +13,11 @@ const CurrencyFormatter = new Intl.NumberFormat('en-US', {
 });
 
 function CoinList() {
-    const [wsData, setWsData] = useState([]);
+    const [wsData, setWsData] = useState(symbols.data);
     const [searchValue, setSearchValue] = useState("");
     const navigate = useNavigate();
 
-    let previousWsData;
+    let previousWsData = wsData;
 
     useEffect(() => {
         const ws = new WebSocket("wss://stream.binance.com:9443/ws/!ticker@arr");
@@ -29,6 +30,11 @@ function CoinList() {
             const sortedData = _.sortBy(union, ['s']);
             setWsData(sortedData);
             previousWsData = sortedData;
+
+            // TODO get all symbols from sortedData
+            // 1. map each object to get only 's' and write to console
+            // 2. Serialize data for Copy&Paste to symbols.json
+            console.log(sortedData);
         };
     }, []);
 
