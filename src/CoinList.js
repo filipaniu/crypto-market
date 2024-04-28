@@ -1,10 +1,10 @@
-import {useEffect, useState} from "react";
-import {Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Grid} from "@mui/material";
+import { useEffect, useState } from "react";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TextField, Grid } from "@mui/material";
 import MarketValue from "./MarketValue";
 import './CoinList.css';
-import {useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import * as _ from "lodash";
-import symbols from './symbols.json'
+import symbols from './data/symbols.json'
 import ExchangeInfo from './services/ExchangeInfo';
 import CoinIcon from "./CoinIcon";
 
@@ -38,12 +38,11 @@ function CoinList() {
     if (wsData.length > 0) {
         const coins = _.isEmpty(searchValue) ? wsData : _.filter(wsData, (x) => _.startsWith(x.s, searchValue));
         const rows = coins.map((x, i) => {
-             const symbolInfo = ExchangeInfo.get(x.s);
-             // console.log(symbolInfo);
+            const symbolInfo = ExchangeInfo.get(x.s);
             return <TableRow key={i} onClick={() => navigate("/coin?symbol=" + x.s)} className="coinRow">
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
-                    {/*<CoinIcon symbol={symbolInfo.quoteAsset}/>*/}
+                    <CoinIcon symbol={symbolInfo.baseAsset} />
                 </TableCell>
                 <TableCell>{x.s}</TableCell>
                 <TableCell>{CurrencyFormatter.format(x.c)}</TableCell>
@@ -59,14 +58,14 @@ function CoinList() {
             <Grid container>
                 <Grid item xs={12} md={6} xl={3}>
                     <TextField fullWidth={true} id="outlined-basic" label="Search" variant="outlined"
-                               onChange={x => setSearchValue(x.target.value)}/>
+                        onChange={x => setSearchValue(x.target.value)} />
                 </Grid>
             </Grid>
             <TableContainer>
                 <Table>
                     <TableHead>
                         <TableRow>
-                            <TableCell sx={{width: "0.5vw"}}></TableCell>
+                            <TableCell sx={{ width: "0.5vw" }}></TableCell>
                             <TableCell>Icons</TableCell>
                             <TableCell>Symbol</TableCell>
                             <TableCell>Price USD</TableCell>
