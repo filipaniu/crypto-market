@@ -2,7 +2,9 @@ import * as _ from "lodash";
 
 import HttpService from './HttpService';
 
-class ExcahngeInfo {
+class ExchangeInfo {
+
+    counter = 0;
 
     symbols = [];
 
@@ -12,13 +14,19 @@ class ExcahngeInfo {
             this.symbols = _.map(response.symbols, c => _.pick(c, ['symbol', 'baseAsset', 'quoteAsset']));
         });
     }
-
-    get(symbol) { // symbol = BTCUSDT, ETHBTC
-        // TODO 1 implement get
-        // lookup this.symbols
-        // ? Find baseAsset and quoteAsset for given symbol 
+    // TODO - issue with get method called before async code in constructor get executed
+    get(symbol) {
+        console.log(this.symbols.length);
+       const found =  _.find(this.symbols,{symbol:symbol});
+       if(found){
+           return found;
+       }
+       else {
+            console.log(found);
+            console.error("Not found", symbol, ++this.counter);
+       }
     }
 }
 
-const exchangeInfoSingletonService = new ExcahngeInfo();
+const exchangeInfoSingletonService = new ExchangeInfo();
 export default exchangeInfoSingletonService;

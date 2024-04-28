@@ -6,6 +6,7 @@ import {useNavigate} from "react-router-dom";
 import * as _ from "lodash";
 import symbols from './symbols.json'
 import ExchangeInfo from './services/ExchangeInfo';
+import CoinIcon from "./CoinIcon";
 
 const CurrencyFormatter = new Intl.NumberFormat('en-US', {
     style: 'currency',
@@ -37,14 +38,12 @@ function CoinList() {
     if (wsData.length > 0) {
         const coins = _.isEmpty(searchValue) ? wsData : _.filter(wsData, (x) => _.startsWith(x.s, searchValue));
         const rows = coins.map((x, i) => {
-            // TODO 2 - integrate ExchangeInfo.get(symbol);
-            // Apply exchangeInfo.get(....) => translate currency pair into base and quotes symbol. 
-            //.. BTCUSDT -> {symbol: 'BTCUSDT', baseAsset:'BTC', quoteAsset:'USDT'}
+             const symbolInfo = ExchangeInfo.get(x.s);
+             // console.log(symbolInfo);
             return <TableRow key={i} onClick={() => navigate("/coin?symbol=" + x.s)} className="coinRow">
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
-                    {/* use baseAsset as CoinIcon symbol value  */}
-                    {/*<CoinIcon symbol={x.s}/>*/}
+                    {/*<CoinIcon symbol={symbolInfo.quoteAsset}/>*/}
                 </TableCell>
                 <TableCell>{x.s}</TableCell>
                 <TableCell>{CurrencyFormatter.format(x.c)}</TableCell>

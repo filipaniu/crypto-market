@@ -43,7 +43,7 @@ export default function CandlestickChart(props) {
             data={chartData}
             width="100%"
             height="750px"
-            options={{ chartArea: { width: "90%" }, legend: { position: "top" }, title: "1s " + props.symbol }}
+            options={{ chartArea: { width: "89%" }, legend: { position: "top" }, title: "1s " + props.symbol }}
             legendToggle />
     } else {
         return <p>Please wait...</p>
