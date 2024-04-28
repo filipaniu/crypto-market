@@ -42,6 +42,7 @@ function CoinList() {
             return <TableRow key={i} onClick={() => navigate("/coin?symbol=" + x.s)} className="coinRow">
                 <TableCell>{i + 1}</TableCell>
                 <TableCell>
+                    <CoinIcon symbol={symbolInfo.quoteAsset} />
                     <CoinIcon symbol={symbolInfo.baseAsset} />
                 </TableCell>
                 <TableCell>{x.s}</TableCell>
