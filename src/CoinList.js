@@ -35,19 +35,25 @@ function CoinList() {
         };
     }, []);
 
+    function getIcons(symbol) {
+        const symbolInfo = ExchangeInfo.get(symbol);
+        let icons = [];
+        if (_.isObject(symbolInfo) && symbolInfo.quoteAssetIcon) {
+            icons.push(<CoinIcon key={1} symbol={symbolInfo.quoteAsset}/>)
+        }
+        if (_.isObject(symbolInfo) && symbolInfo.baseAssetIcon) {
+            icons.push(<CoinIcon key={2} symbol={symbolInfo.baseAsset}/>);
+        }
+        return icons;
+    }
+
     if (wsData.length > 0) {
         const coins = _.isEmpty(searchValue) ? wsData : _.filter(wsData, (x) => _.startsWith(x.s, searchValue));
         const rows = coins.map((x, i) => {
-            const symbolInfo = ExchangeInfo.get(x.s);
-            let icons = "";
-            if (_.isObject(symbolInfo)) {
-                icons = [<CoinIcon symbol={symbolInfo.quoteAsset}/>, <CoinIcon symbol={symbolInfo.baseAsset}/>]
-            }
+            const icons = getIcons(x.s);
             return <TableRow key={i} onClick={() => navigate("/coin?symbol=" + x.s)} className="coinRow">
                 <TableCell>{i + 1}</TableCell>
-                <TableCell>
-                    {icons}
-                </TableCell>
+                <TableCell>{icons}</TableCell>
                 <TableCell>{x.s}</TableCell>
                 <TableCell>{CurrencyFormatter.format(x.c)}</TableCell>
                 <TableCell><MarketValue>{x.P}</MarketValue></TableCell>
